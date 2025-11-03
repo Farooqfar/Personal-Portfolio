@@ -7,7 +7,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      <main className="bg-black w-full h-screen">
+      <main className=" w-full h-screen">
         <Navbar />
         <main className="p-20 flex w-[100%] flex-row max-lg:flex-col">
           <section className=" p-10 w-[50%] max-lg:w-[100%]">
@@ -68,9 +68,50 @@ export default function Home() {
           </section>
         </main>
         {/* ----------- Projects ----------- */}
-        <section className="w-[100%]">
-          <h1 className="text-[#E86600]">Project</h1>
-          <div></div>
+        <section className="w-full h-auto flex justify-center items-center flex-col">
+          <h1 className="text-[#E86600] text-6xl text-center">Project</h1>
+          <div className="mt-10 w-[100%] h-auto grid grid-cols-3 place-items-center gap-3 max-lg:grid-cols-1 ">
+            <div className="group relative w-100 h-52 p-2 flex flex-col justify-center items-center gap-4 rounded  hover:bg-[#E86600] transition-all duration-300 hover:shadow-2xl shadow-amber-600  ">
+              <h1 className="text-4xl">E-commerence Store</h1>
+              <p>Some description</p>
+              <a
+                href="#"
+                className="absolute bottom-1 bg-[#F86D00] text-center p-1 w-24 rounded hover:scale-105 transition-all duration-200 cursor-pointer group-hover:bg-black "
+              >
+                Visit
+              </a>
+            </div>
+            <div className="group relative w-100 h-52 p-2 flex flex-col justify-center items-center gap-4 rounded  hover:bg-[#E86600] transition-all duration-300 hover:shadow-2xl shadow-amber-600  ">
+              <h1 className="text-4xl">E-commerence Store</h1>
+              <p>Some description</p>
+              <a
+                href="#"
+                className="absolute bottom-1 bg-[#F86D00] text-center p-1 w-24 rounded hover:scale-105 transition-all duration-200 cursor-pointer group-hover:bg-black "
+              >
+                Visit
+              </a>
+            </div>
+            <div className="group relative w-100 h-52 p-2 flex flex-col justify-center items-center gap-4 rounded  hover:bg-[#E86600] transition-all duration-300 hover:shadow-2xl shadow-amber-600  ">
+              <h1 className="text-4xl">E-commerence Store</h1>
+              <p>Some description</p>
+              <a
+                href="#"
+                className="absolute bottom-1 bg-[#F86D00] text-center p-1 w-24 rounded hover:scale-105 transition-all duration-200 cursor-pointer group-hover:bg-black "
+              >
+                Visit
+              </a>
+            </div>
+            <div className="group relative w-100 h-52 p-2 flex flex-col justify-center items-center gap-4 rounded  hover:bg-[#E86600] transition-all duration-300 hover:shadow-2xl shadow-amber-600  ">
+              <h1 className="text-4xl">E-commerence Store</h1>
+              <p>Some description</p>
+              <a
+                href="#"
+                className="absolute bottom-1 bg-[#F86D00] text-center p-1 w-24 rounded hover:scale-105 transition-all duration-200 cursor-pointer group-hover:bg-black "
+              >
+                Visit
+              </a>
+            </div>
+          </div>
         </section>
       </main>
     </>
