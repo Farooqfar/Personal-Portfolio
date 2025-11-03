@@ -67,6 +67,11 @@ export default function Home() {
             />
           </section>
         </main>
+        {/* ----------- Projects ----------- */}
+        <section className="w-[100%]">
+          <h1 className="text-[#E86600]">Project</h1>
+          <div></div>
+        </section>
       </main>
     </>
   );
