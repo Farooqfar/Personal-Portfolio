@@ -8,6 +8,21 @@ export default function Home() {
   return (
     <>
       <main className=" w-full h-screen">
+        {/* 
+          Hero Section – Eye-catching intro
+
+          About Me – Quick background and passion
+
+          Skills / Tech Stack – Show your tools and expertise
+
+          Projects – Showcase your top work
+
+          Education – Your academic foundation
+
+          Testimonials – Social proof and credibility
+
+          Contact / Footer – Invite collaboration
+          */}
         <Navbar />
         <main className="p-20 flex w-[100%] flex-row max-lg:flex-col">
           <section className=" p-10 w-[50%] max-lg:w-[100%]">
@@ -67,6 +82,45 @@ export default function Home() {
             />
           </section>
         </main>
+        {/* ----------- About Me ----------- */}
+        <section className="flex flex-col justify-center items-center">
+          <h1 className="text-6xl text-[#e86600]">About me</h1>
+          <div className="flex justify-center items-center">
+            <div className="p-10 w-[50%] text-[#A1A1A1]">
+              <h1 className="text-2xl">
+                I’m Muhammad Farooq, a passionate Full Stack Developer
+                specializing in Next.js, React, and Tailwind CSS.
+              </h1>
+              <br />
+              <h1 className="text-2xl">
+                I love building fast, dynamic, and scalable web applications
+                that blend clean code with modern design. My focus is on
+                creating seamless user experiences and efficient back-end logic
+                using tools like Next.js API routes, Node.js, and MongoDB.
+              </h1>
+              <br />
+              <h1 className="text-2xl">
+                I enjoy turning complex problems into simple, elegant solutions
+                — from crafting responsive UIs to managing data flow and APIs.
+                I’m always learning, exploring new technologies, and improving
+                my skills to stay ahead in the ever-evolving web ecosystem.
+              </h1>
+              <br />
+              <h1 className="text-2xl">
+                My mission is to deliver high-quality, performance-driven
+                digital products that make a real impact.
+              </h1>
+              <br />
+              <a
+                href="#"
+                className=" bg-blue-500 text-black text-center p-1 w-28 rounded hover:scale-105 transition-all duration-200 cursor-pointer "
+              >
+                Linkdin
+              </a>
+            </div>
+            <div className="w-[50%]">hello</div>
+          </div>
+        </section>
         {/* ----------- Projects ----------- */}
         <section className="w-full h-auto flex justify-center items-center flex-col">
           <h1 className="text-[#E86600] text-6xl text-center">Projects</h1>
@@ -93,7 +147,7 @@ export default function Home() {
               <div className="w-[100%] flex justify-between items-center">
                 <a
                   href="#"
-                  className="bottom-1 bg-blue-500 text-center p-1 w-24 rounded hover:scale-105 transition-all duration-200 cursor-pointer "
+                  className="bottom-1 bg-blue-500 text-center p-1 w-28 rounded hover:scale-105 transition-all duration-200 cursor-pointer "
                 >
                   Read more...
                 </a>
@@ -110,7 +164,7 @@ export default function Home() {
               <div className="w-[100%] flex justify-between items-center">
                 <a
                   href="#"
-                  className="bottom-1 bg-blue-500 text-center p-1 w-24 rounded hover:scale-105 transition-all duration-200 cursor-pointer"
+                  className="bottom-1 bg-blue-500 text-center p-1 w-28 rounded hover:scale-105 transition-all duration-200 cursor-pointer"
                 >
                   Read more...
                 </a>
@@ -127,7 +181,7 @@ export default function Home() {
               <div className="w-[100%] flex justify-between items-center">
                 <a
                   href="#"
-                  className="bottom-1 bg-blue-500 text-center p-1 w-24 rounded hover:scale-105 transition-all duration-200 cursor-pointer  "
+                  className="bottom-1 bg-blue-500 text-center p-1 w-28 rounded hover:scale-105 transition-all duration-200 cursor-pointer  "
                 >
                   Read more...
                 </a>
@@ -144,7 +198,7 @@ export default function Home() {
               <div className="w-[100%] flex justify-between items-center">
                 <a
                   href="#"
-                  className="bottom-1 bg-blue-500 text-center p-1 w-24 rounded hover:scale-105 transition-all duration-200 cursor-pointer "
+                  className="bottom-1 bg-blue-500 text-center p-1 w-28 rounded hover:scale-105 transition-all duration-200 cursor-pointer "
                 >
                   Read more...
                 </a>
