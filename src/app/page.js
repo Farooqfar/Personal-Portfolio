@@ -85,7 +85,7 @@ export default function Home() {
         {/* ----------- About Me ----------- */}
         <section className="flex flex-col justify-center items-center">
           <h1 className="text-6xl text-[#e86600]">About me</h1>
-          <div className="flex justify-center items-center">
+          <div className="w-[100%] flex justify-center items-center">
             <div className="p-10 w-[50%] text-[#A1A1A1]">
               <h1 className="text-2xl">
                 I’m Muhammad Farooq, a passionate Full Stack Developer
@@ -113,7 +113,7 @@ export default function Home() {
               <br />
               <a
                 href="#"
-                className=" bg-blue-500 text-black text-center p-1 w-28 rounded hover:scale-105 transition-all duration-200 cursor-pointer "
+                className=" bg-blue-500 text-black text-center p-2 w-28 rounded hover:scale-105 transition-all duration-200 cursor-pointer "
               >
                 Linkdin
               </a>
