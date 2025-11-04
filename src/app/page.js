@@ -69,47 +69,109 @@ export default function Home() {
         </main>
         {/* ----------- Projects ----------- */}
         <section className="w-full h-auto flex justify-center items-center flex-col">
-          <h1 className="text-[#E86600] text-6xl text-center">Project</h1>
-          <div className="mt-10 w-[100%] h-auto grid grid-cols-3 place-items-center gap-3 max-lg:grid-cols-1 ">
-            <div className="group relative w-100 h-52 p-2 flex flex-col justify-center items-center gap-4 rounded  hover:bg-[#E86600] transition-all duration-300 hover:shadow-2xl shadow-amber-600  ">
-              <h1 className="text-4xl">E-commerence Store</h1>
-              <p>Some description</p>
-              <a
-                href="#"
-                className="absolute bottom-1 bg-[#F86D00] text-center p-1 w-24 rounded hover:scale-105 transition-all duration-200 cursor-pointer group-hover:bg-black "
-              >
-                Visit
-              </a>
+          <h1 className="text-[#E86600] text-6xl text-center">Projects</h1>
+          <div className="mt-10 w-[100%] h-auto grid grid-cols-3 place-items-center gap-5 max-lg:grid-cols-1 ">
+            <div className="group border hover:scale-105 relative w-100 h-52 p-4 flex flex-col justify-around items-center gap-4 rounded  hover:bg-[#E86600] transition-all duration-300 hover:shadow-2xl shadow-amber-600  ">
+              <h1 className="text-4xl">E-Commerce Platform</h1>
+              <div className="w-[100%] flex justify-between items-center">
+                <a
+                  href="#"
+                  className="bottom-1 bg-blue-500 text-center p-1 w-24 rounded hover:scale-105 transition-all duration-200 cursor-pointer group-hover:bg-black "
+                >
+                  Read more...
+                </a>
+                <a
+                  href="#"
+                  className="bottom-1 bg-[#F86D00] text-center p-1 w-24 rounded hover:scale-105 transition-all duration-200 cursor-pointer group-hover:bg-black "
+                >
+                  Visit
+                </a>
+              </div>
             </div>
-            <div className="group relative w-100 h-52 p-2 flex flex-col justify-center items-center gap-4 rounded  hover:bg-[#E86600] transition-all duration-300 hover:shadow-2xl shadow-amber-600  ">
-              <h1 className="text-4xl">E-commerence Store</h1>
-              <p>Some description</p>
-              <a
-                href="#"
-                className="absolute bottom-1 bg-[#F86D00] text-center p-1 w-24 rounded hover:scale-105 transition-all duration-200 cursor-pointer group-hover:bg-black "
-              >
-                Visit
-              </a>
+            <div className="group border hover:scale-105 relative w-100 h-52 p-4 flex flex-col justify-around items-center gap-4 rounded  hover:bg-[#E86600] transition-all duration-300 hover:shadow-2xl shadow-amber-600  ">
+              <h1 className="text-4xl">Car Rental Platform</h1>
+              <div className="w-[100%] flex justify-between items-center">
+                <a
+                  href="#"
+                  className="bottom-1 bg-blue-500 text-center p-1 w-24 rounded hover:scale-105 transition-all duration-200 cursor-pointer group-hover:bg-black "
+                >
+                  Read more...
+                </a>
+                <a
+                  href="#"
+                  className="bottom-1 bg-[#F86D00] text-center p-1 w-24 rounded hover:scale-105 transition-all duration-200 cursor-pointer group-hover:bg-black "
+                >
+                  Visit
+                </a>
+              </div>
             </div>
-            <div className="group relative w-100 h-52 p-2 flex flex-col justify-center items-center gap-4 rounded  hover:bg-[#E86600] transition-all duration-300 hover:shadow-2xl shadow-amber-600  ">
-              <h1 className="text-4xl">E-commerence Store</h1>
-              <p>Some description</p>
-              <a
-                href="#"
-                className="absolute bottom-1 bg-[#F86D00] text-center p-1 w-24 rounded hover:scale-105 transition-all duration-200 cursor-pointer group-hover:bg-black "
-              >
-                Visit
-              </a>
+            <div className="group border hover:scale-105 relative w-100 h-52 p-4 flex flex-col justify-around items-center gap-4 rounded  hover:bg-[#E86600] transition-all duration-300 hover:shadow-2xl shadow-amber-600  ">
+              <h1 className="text-4xl">Modern Job Portal</h1>
+              <div className="w-[100%] flex justify-between items-center">
+                <a
+                  href="#"
+                  className="bottom-1 bg-blue-500 text-center p-1 w-24 rounded hover:scale-105 transition-all duration-200 cursor-pointer group-hover:bg-black "
+                >
+                  Read more...
+                </a>
+                <a
+                  href="#"
+                  className="bottom-1 bg-[#F86D00] text-center p-1 w-24 rounded hover:scale-105 transition-all duration-200 cursor-pointer group-hover:bg-black "
+                >
+                  Visit
+                </a>
+              </div>
             </div>
-            <div className="group relative w-100 h-52 p-2 flex flex-col justify-center items-center gap-4 rounded  hover:bg-[#E86600] transition-all duration-300 hover:shadow-2xl shadow-amber-600  ">
-              <h1 className="text-4xl">E-commerence Store</h1>
-              <p>Some description</p>
-              <a
-                href="#"
-                className="absolute bottom-1 bg-[#F86D00] text-center p-1 w-24 rounded hover:scale-105 transition-all duration-200 cursor-pointer group-hover:bg-black "
-              >
-                Visit
-              </a>
+            <div className="group border hover:scale-105 relative w-100 h-52 p-4 flex flex-col justify-around items-center gap-4 rounded  hover:bg-[#E86600] transition-all duration-300 hover:shadow-2xl shadow-amber-600  ">
+              <h1 className="text-4xl">Real Time Chat App</h1>
+              <div className="w-[100%] flex justify-between items-center">
+                <a
+                  href="#"
+                  className="bottom-1 bg-blue-500 text-center p-1 w-24 rounded hover:scale-105 transition-all duration-200 cursor-pointer group-hover:bg-black "
+                >
+                  Read more...
+                </a>
+                <a
+                  href="#"
+                  className="bottom-1 bg-[#F86D00] text-center p-1 w-24 rounded hover:scale-105 transition-all duration-200 cursor-pointer group-hover:bg-black "
+                >
+                  Visit
+                </a>
+              </div>
+            </div>
+            <div className="group border hover:scale-105 relative w-100 h-52 p-4 flex flex-col justify-around items-center gap-4 rounded  hover:bg-[#E86600] transition-all duration-300 hover:shadow-2xl shadow-amber-600  ">
+              <h1 className="text-4xl">Online LMS</h1>
+              <div className="w-[100%] flex justify-between items-center">
+                <a
+                  href="#"
+                  className="bottom-1 bg-blue-500 text-center p-1 w-24 rounded hover:scale-105 transition-all duration-200 cursor-pointer group-hover:bg-black "
+                >
+                  Read more...
+                </a>
+                <a
+                  href="#"
+                  className="bottom-1 bg-[#F86D00] text-center p-1 w-24 rounded hover:scale-105 transition-all duration-200 cursor-pointer group-hover:bg-black "
+                >
+                  Visit
+                </a>
+              </div>
+            </div>
+            <div className="group border hover:scale-105 relative w-100 h-52 p-4 flex flex-col justify-around items-center gap-4 rounded  hover:bg-[#E86600] transition-all duration-300 hover:shadow-2xl shadow-amber-600  ">
+              <h1 className="text-4xl">Portfolio</h1>
+              <div className="w-[100%] flex justify-between items-center">
+                <a
+                  href="#"
+                  className="bottom-1 bg-blue-500 text-center p-1 w-24 rounded hover:scale-105 transition-all duration-200 cursor-pointer group-hover:bg-black "
+                >
+                  Read more...
+                </a>
+                <a
+                  href="#"
+                  className="bottom-1 bg-[#F86D00] text-center p-1 w-24 rounded hover:scale-105 transition-all duration-200 cursor-pointer group-hover:bg-black "
+                >
+                  Visit
+                </a>
+              </div>
             </div>
           </div>
         </section>
