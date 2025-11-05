@@ -125,8 +125,15 @@ export default function Home() {
         <section className="w-full h-auto flex justify-center items-center flex-col">
           <h1 className="text-[#E86600] text-6xl text-center">Projects</h1>
           <div className="mt-10 w-[100%] h-auto grid grid-cols-3 place-items-center gap-5 max-lg:grid-cols-1 ">
-            <div className="group border hover:scale-105 relative w-100 h-52 p-4 flex flex-col justify-around items-center gap-4 rounded  hover:bg-gray-800 transition-all duration-300 hover:shadow-2xl   ">
-              <h1 className="text-3xl">E-Commerce Platform</h1>
+            <div className="group border hover:scale-105 relative w-100 h-52 p-4 flex flex-col justify-around items-start gap-4 rounded  hover:bg-gray-800 transition-all duration-300 hover:shadow-2xl   ">
+              <div className="text-start">
+                <h1 className="text-2xl">Title</h1>
+                <h1 className="text-xl text-gray-400">E-Commerce Platform</h1>
+              </div>
+              <div>
+                <h1 className="text-2xl">Description</h1>
+                <p className="text-gray-400">something</p>
+              </div>
               <div className="w-[100%] flex justify-between items-center">
                 <a
                   href="#"
