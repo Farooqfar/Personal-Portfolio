@@ -2,6 +2,8 @@ import Navbar from "@/components/applications/Navbar";
 import { Button } from "@/components/ui/button";
 import { RiInstagramFill } from "react-icons/ri";
 import { FaLinkedin } from "react-icons/fa6";
+import { MdDeveloperMode } from "react-icons/md";
+
 import Image from "next/image";
 
 export default function Home() {
@@ -322,6 +324,30 @@ export default function Home() {
                   Visit
                 </a>
               </div>
+            </div>
+          </div>
+        </section>
+        {/* ---------- Skills ------------- */}
+        <section className="mt-10 flex justify-center items-center flex-col">
+          <h1 className="text-[#e86600] text-6xl">Skills</h1>
+          <div className="mt-10 flex justify-center items-center w-full gap-10">
+            <div className="w-100 flex flex-col justify-center items-center text-center border p-2 gap-4">
+              <MdDeveloperMode className="text-[#e86600] text-7xl" />
+              <h1 className="text-2xl">Frontend Developer</h1>
+              <p className="text-gray-400">
+                Building fast, responsive, and SEO-friendly web apps using
+                Next.js, React, and Tailwind CSS — focused on clean design and
+                smooth user experience.
+              </p>
+            </div>
+            <div className="w-100 flex flex-col justify-center items-center text-center border p-2 gap-4">
+              <MdDeveloperMode className="text-[#e86600] text-7xl" />
+              <h1 className="text-2xl">Frontend Developer</h1>
+              <p className="text-gray-400">
+                Building fast, responsive, and SEO-friendly web apps using
+                Next.js, React, and Tailwind CSS — focused on clean design and
+                smooth user experience.
+              </p>
             </div>
           </div>
         </section>
