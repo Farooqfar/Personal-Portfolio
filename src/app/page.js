@@ -3,6 +3,16 @@ import { Button } from "@/components/ui/button";
 import { RiInstagramFill } from "react-icons/ri";
 import { FaLinkedin } from "react-icons/fa6";
 import { MdDeveloperMode } from "react-icons/md";
+import { FaDatabase } from "react-icons/fa";
+import { FaHtml5 } from "react-icons/fa";
+import { FaCss3Alt } from "react-icons/fa";
+import { FaJsSquare } from "react-icons/fa";
+import { FaReact } from "react-icons/fa";
+import { RiNextjsFill } from "react-icons/ri";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { SiExpress } from "react-icons/si";
+import { FaNodeJs } from "react-icons/fa";
+import { SiMongodb } from "react-icons/si";
 
 import Image from "next/image";
 
@@ -331,7 +341,7 @@ export default function Home() {
         <section className="mt-10 flex justify-center items-center flex-col">
           <h1 className="text-[#e86600] text-6xl">Skills</h1>
           <div className="mt-10 flex justify-center items-center w-full gap-10">
-            <div className="w-100 flex flex-col justify-center items-center text-center border p-2 gap-4">
+            <div className="w-100 flex flex-col justify-center items-center text-center border p-5 gap-4">
               <MdDeveloperMode className="text-[#e86600] text-7xl" />
               <h1 className="text-2xl">Frontend Developer</h1>
               <p className="text-gray-400">
@@ -340,15 +350,26 @@ export default function Home() {
                 smooth user experience.
               </p>
             </div>
-            <div className="w-100 flex flex-col justify-center items-center text-center border p-2 gap-4">
-              <MdDeveloperMode className="text-[#e86600] text-7xl" />
-              <h1 className="text-2xl">Frontend Developer</h1>
+            <div className="w-100 flex flex-col justify-center items-center text-center border p-5 gap-4">
+              <FaDatabase className="text-[#e86600] text-7xl" />
+              <h1 className="text-2xl">Backend Developer</h1>
               <p className="text-gray-400">
-                Building fast, responsive, and SEO-friendly web apps using
-                Next.js, React, and Tailwind CSS — focused on clean design and
-                smooth user experience.
+                Experienced in building secure, scalable, and efficient
+                server-side applications using Node.js, Express, and databases
+                like MongoDB
               </p>
             </div>
+          </div>
+          <div>
+            <FaHtml5 />
+            <FaCss3Alt />
+            <RiTailwindCssFill />
+            <FaJsSquare />
+            <FaReact />
+            <RiNextjsFill />
+            <SiExpress />
+            <FaNodeJs />
+            <SiMongodb />
           </div>
         </section>
       </main>
