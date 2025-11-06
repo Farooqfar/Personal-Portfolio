@@ -24,7 +24,7 @@ export default function Home() {
           Contact / Footer – Invite collaboration
           */}
         <Navbar />
-        <main className="p-20 flex w-[100%] flex-row max-lg:flex-col">
+        <main className="flex w-[100%] flex-row max-lg:flex-col">
           <section className=" p-10 w-[50%] max-lg:w-[100%]">
             <h1 className="text-gray-200 text-2xl">
               Hi I am <br /> Muhammad Farooq
@@ -83,10 +83,10 @@ export default function Home() {
           </section>
         </main>
         {/* ----------- About Me ----------- */}
-        <section className="flex flex-col justify-center items-center">
+        <section className="w-[100%] flex flex-col justify-center items-center">
           <h1 className="text-6xl text-[#e86600]">About me</h1>
-          <div className="w-[100%] flex justify-center items-center">
-            <div className="p-10 w-[50%] text-[#A1A1A1]">
+          <div className="w-[100%] flex justify-center items-center max-md:flex-col">
+            <div className="p-10 w-[60%] text-[#A1A1A1] max-md:w-[100%]">
               <h1 className="text-2xl">
                 I’m Muhammad Farooq, a passionate Full Stack Developer
                 specializing in Next.js, React, and Tailwind CSS.
@@ -113,19 +113,28 @@ export default function Home() {
               <br />
               <a
                 href="#"
-                className=" bg-blue-500 text-black text-center p-2 w-28 rounded hover:scale-105 transition-all duration-200 cursor-pointer "
+                className="absolute bg-[#E86600] text-black text-center p-1 w-32 rounded hover:scale-105 transition-all duration-200 cursor-pointer "
               >
                 Linkdin
               </a>
             </div>
-            <div className="w-[50%]">hello</div>
+            <div className="w-[50%] max-md:w-[100%]">hello</div>
           </div>
         </section>
         {/* ----------- Projects ----------- */}
         <section className="w-full h-auto flex justify-center items-center flex-col">
           <h1 className="text-[#E86600] text-6xl text-center">Projects</h1>
           <div className="mt-10 w-[100%] h-auto grid grid-cols-3 place-items-center gap-5 max-lg:grid-cols-1 ">
-            <div className="group border hover:scale-105 relative w-100 h-52 p-4 flex flex-col justify-around items-start gap-4 rounded  hover:bg-gray-800 transition-all duration-300 hover:shadow-2xl   ">
+            <div className="group border hover:scale-105 relative w-100 h-auto p-4 flex flex-col justify-around items-start gap-4 rounded  hover:bg-gradient-to-r from-black to-gray-900 transition-all duration-300 hover:shadow-2xl   ">
+              <div className="w-[100%]">
+                <Image
+                  src="/pro.jpeg"
+                  alt="projects"
+                  width={100}
+                  height={100}
+                  className="w-full"
+                />
+              </div>
               <div className="text-start">
                 <h1 className="text-2xl">Title</h1>
                 <h1 className="text-xl text-gray-400">E-Commerce Platform</h1>
@@ -149,59 +158,24 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className="group border hover:scale-105 relative w-100 h-52 p-4 flex flex-col justify-around items-center gap-4 rounded  hover:bg-gray-800 transition-all duration-300 hover:shadow-2xl  ">
-              <h1 className="text-4xl">Car Rental Platform</h1>
-              <div className="w-[100%] flex justify-between items-center">
-                <a
-                  href="#"
-                  className="bottom-1 bg-blue-500 text-center p-1 w-28 rounded hover:scale-105 transition-all duration-200 cursor-pointer "
-                >
-                  Read more...
-                </a>
-                <a
-                  href="#"
-                  className="bottom-1 bg-[#F86D00] text-center p-1 w-24 rounded hover:scale-105 transition-all duration-200 cursor-pointer  "
-                >
-                  Visit
-                </a>
+            <div className="group border hover:scale-105 relative w-100 h-auto p-4 flex flex-col justify-around items-start gap-4 rounded  hover:bg-gradient-to-r from-black to-gray-900 transition-all duration-300 hover:shadow-2xl   ">
+              <div className="w-[100%]">
+                <Image
+                  src="/pro.jpeg"
+                  alt="projects"
+                  width={100}
+                  height={100}
+                  className="w-full"
+                />
               </div>
-            </div>
-            <div className="group border hover:scale-105 relative w-100 h-52 p-4 flex flex-col justify-around items-center gap-4 rounded  hover:bg-gray-800 transition-all duration-300 hover:shadow-2xl  ">
-              <h1 className="text-4xl">Modern Job Portal</h1>
-              <div className="w-[100%] flex justify-between items-center">
-                <a
-                  href="#"
-                  className="bottom-1 bg-blue-500 text-center p-1 w-28 rounded hover:scale-105 transition-all duration-200 cursor-pointer"
-                >
-                  Read more...
-                </a>
-                <a
-                  href="#"
-                  className="bottom-1 bg-[#F86D00] text-center p-1 w-24 rounded hover:scale-105 transition-all duration-200 cursor-pointer "
-                >
-                  Visit
-                </a>
+              <div className="text-start">
+                <h1 className="text-2xl">Title</h1>
+                <h1 className="text-xl text-gray-400">E-Commerce Platform</h1>
               </div>
-            </div>
-            <div className="group border hover:scale-105 relative w-100 h-52 p-4 flex flex-col justify-around items-center gap-4 rounded  hover:bg-gray-800 transition-all duration-300 hover:shadow-2xl  ">
-              <h1 className="text-4xl">Real Time Chat App</h1>
-              <div className="w-[100%] flex justify-between items-center">
-                <a
-                  href="#"
-                  className="bottom-1 bg-blue-500 text-center p-1 w-28 rounded hover:scale-105 transition-all duration-200 cursor-pointer  "
-                >
-                  Read more...
-                </a>
-                <a
-                  href="#"
-                  className="bottom-1 bg-[#F86D00] text-center p-1 w-24 rounded hover:scale-105 transition-all duration-200 cursor-pointer  "
-                >
-                  Visit
-                </a>
+              <div>
+                <h1 className="text-2xl">Description</h1>
+                <p className="text-gray-400">something</p>
               </div>
-            </div>
-            <div className="group border hover:scale-105 relative w-100 h-52 p-4 flex flex-col justify-around items-center gap-4 rounded  hover:bg-gray-800 transition-all duration-300 hover:shadow-2xl  ">
-              <h1 className="text-4xl">Online LMS</h1>
               <div className="w-[100%] flex justify-between items-center">
                 <a
                   href="#"
@@ -217,12 +191,127 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className="group border hover:scale-105 relative w-100 h-52 p-4 flex flex-col justify-around items-center gap-4 rounded  hover:bg-gray-800 transition-all duration-300 hover:shadow-2xl  ">
-              <h1 className="text-4xl">Portfolio</h1>
+            <div className="group border hover:scale-105 relative w-100 h-auto p-4 flex flex-col justify-around items-start gap-4 rounded  hover:bg-gradient-to-r from-black to-gray-900 transition-all duration-300 hover:shadow-2xl   ">
+              <div className="w-[100%]">
+                <Image
+                  src="/pro.jpeg"
+                  alt="projects"
+                  width={100}
+                  height={100}
+                  className="w-full"
+                />
+              </div>
+              <div className="text-start">
+                <h1 className="text-2xl">Title</h1>
+                <h1 className="text-xl text-gray-400">E-Commerce Platform</h1>
+              </div>
+              <div>
+                <h1 className="text-2xl">Description</h1>
+                <p className="text-gray-400">something</p>
+              </div>
               <div className="w-[100%] flex justify-between items-center">
                 <a
                   href="#"
-                  className="bottom-1 bg-blue-500 text-center p-1 w-28 rounded hover:scale-105 transition-all duration-200 cursor-pointer  "
+                  className="bottom-1 bg-blue-500 text-center p-1 w-28 rounded hover:scale-105 transition-all duration-200 cursor-pointer "
+                >
+                  Read more...
+                </a>
+                <a
+                  href="#"
+                  className="bottom-1 bg-[#F86D00] text-center p-1 w-24 rounded hover:scale-105 transition-all duration-200 cursor-pointer "
+                >
+                  Visit
+                </a>
+              </div>
+            </div>
+            <div className="group border hover:scale-105 relative w-100 h-auto p-4 flex flex-col justify-around items-start gap-4 rounded  hover:bg-gradient-to-r from-black to-gray-900 transition-all duration-300 hover:shadow-2xl   ">
+              <div className="w-[100%]">
+                <Image
+                  src="/pro.jpeg"
+                  alt="projects"
+                  width={100}
+                  height={100}
+                  className="w-full"
+                />
+              </div>
+              <div className="text-start">
+                <h1 className="text-2xl">Title</h1>
+                <h1 className="text-xl text-gray-400">E-Commerce Platform</h1>
+              </div>
+              <div>
+                <h1 className="text-2xl">Description</h1>
+                <p className="text-gray-400">something</p>
+              </div>
+              <div className="w-[100%] flex justify-between items-center">
+                <a
+                  href="#"
+                  className="bottom-1 bg-blue-500 text-center p-1 w-28 rounded hover:scale-105 transition-all duration-200 cursor-pointer "
+                >
+                  Read more...
+                </a>
+                <a
+                  href="#"
+                  className="bottom-1 bg-[#F86D00] text-center p-1 w-24 rounded hover:scale-105 transition-all duration-200 cursor-pointer "
+                >
+                  Visit
+                </a>
+              </div>
+            </div>
+            <div className="group border hover:scale-105 relative w-100 h-auto p-4 flex flex-col justify-around items-start gap-4 rounded  hover:bg-gradient-to-r from-black to-gray-900 transition-all duration-300 hover:shadow-2xl   ">
+              <div className="w-[100%]">
+                <Image
+                  src="/pro.jpeg"
+                  alt="projects"
+                  width={100}
+                  height={100}
+                  className="w-full"
+                />
+              </div>
+              <div className="text-start">
+                <h1 className="text-2xl">Title</h1>
+                <h1 className="text-xl text-gray-400">E-Commerce Platform</h1>
+              </div>
+              <div>
+                <h1 className="text-2xl">Description</h1>
+                <p className="text-gray-400">something</p>
+              </div>
+              <div className="w-[100%] flex justify-between items-center">
+                <a
+                  href="#"
+                  className="bottom-1 bg-blue-500 text-center p-1 w-28 rounded hover:scale-105 transition-all duration-200 cursor-pointer "
+                >
+                  Read more...
+                </a>
+                <a
+                  href="#"
+                  className="bottom-1 bg-[#F86D00] text-center p-1 w-24 rounded hover:scale-105 transition-all duration-200 cursor-pointer "
+                >
+                  Visit
+                </a>
+              </div>
+            </div>
+            <div className="group border hover:scale-105 relative w-100 h-auto p-4 flex flex-col justify-around items-start gap-4 rounded  hover:bg-gradient-to-r from-black to-gray-900 transition-all duration-300 hover:shadow-2xl   ">
+              <div className="w-[100%]">
+                <Image
+                  src="/pro.jpeg"
+                  alt="projects"
+                  width={100}
+                  height={100}
+                  className="w-full"
+                />
+              </div>
+              <div className="text-start">
+                <h1 className="text-2xl">Title</h1>
+                <h1 className="text-xl text-gray-400">E-Commerce Platform</h1>
+              </div>
+              <div>
+                <h1 className="text-2xl">Description</h1>
+                <p className="text-gray-400">something</p>
+              </div>
+              <div className="w-[100%] flex justify-between items-center">
+                <a
+                  href="#"
+                  className="bottom-1 bg-blue-500 text-center p-1 w-28 rounded hover:scale-105 transition-all duration-200 cursor-pointer "
                 >
                   Read more...
                 </a>
