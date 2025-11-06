@@ -340,7 +340,7 @@ export default function Home() {
         {/* ---------- Skills ------------- */}
         <section className="mt-10 flex justify-center items-center flex-col">
           <h1 className="text-[#e86600] text-6xl">Skills</h1>
-          <div className="mt-10 flex justify-center items-center w-full gap-10">
+          <div className="mt-10 flex justify-center items-center w-full gap-10 max-md:flex-col">
             <div className="w-100 flex flex-col justify-center items-center text-center border p-5 gap-4">
               <MdDeveloperMode className="text-[#e86600] text-7xl" />
               <h1 className="text-2xl">Frontend Developer</h1>
@@ -360,16 +360,16 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div>
-            <FaHtml5 />
-            <FaCss3Alt />
-            <RiTailwindCssFill />
-            <FaJsSquare />
-            <FaReact />
-            <RiNextjsFill />
-            <SiExpress />
-            <FaNodeJs />
-            <SiMongodb />
+          <div className="w-full h-auto flex justify-center items-center flex-wrap gap-4 mt-5">
+            <FaHtml5 className="text-5xl  hover:scale-105 transition-all duration-300 " />
+            <FaCss3Alt className="text-5xl  hover:scale-105 transition-all duration-300" />
+            <RiTailwindCssFill className="text-5xl hover:scale-105 transition-all duration-300 " />
+            <FaJsSquare className="text-5xl hover:scale-105 transition-all duration-300 " />
+            <FaReact className="text-5xl  hover:scale-105 transition-all duration-300" />
+            <RiNextjsFill className="text-5xl  hover:scale-105 transition-all duration-300" />
+            <SiExpress className="text-5xl  hover:scale-105 transition-all duration-300" />
+            <FaNodeJs className="text-5xl  hover:scale-105 transition-all duration-300" />
+            <SiMongodb className="text-5xl hover:scale-105 transition-all duration-300 " />
           </div>
         </section>
       </main>
