@@ -99,47 +99,7 @@ export default function Home() {
             />
           </section>
         </main>
-        {/* ----------- About Me ----------- */}
-        <section className="w-[100%] flex flex-col justify-center items-center">
-          <h1 className="text-6xl text-[#e86600] uppercase font-bold">
-            About me
-          </h1>
-          <div className="w-[100%] flex justify-center items-center max-md:flex-col">
-            <div className="p-10 w-[60%] text-[#A1A1A1] max-md:w-[100%]">
-              <h1 className="text-2xl">
-                I’m Muhammad Farooq, a passionate Full Stack Developer
-                specializing in Next.js, React, and Tailwind CSS.
-              </h1>
-              <br />
-              <h1 className="text-2xl">
-                I love building fast, dynamic, and scalable web applications
-                that blend clean code with modern design. My focus is on
-                creating seamless user experiences and efficient back-end logic
-                using tools like Next.js API routes, Node.js, and MongoDB.
-              </h1>
-              <br />
-              <h1 className="text-2xl">
-                I enjoy turning complex problems into simple, elegant solutions
-                — from crafting responsive UIs to managing data flow and APIs.
-                I’m always learning, exploring new technologies, and improving
-                my skills to stay ahead in the ever-evolving web ecosystem.
-              </h1>
-              <br />
-              <h1 className="text-2xl">
-                My mission is to deliver high-quality, performance-driven
-                digital products that make a real impact.
-              </h1>
-              <br />
-              <a
-                href="#"
-                className="absolute bg-[#E86600] text-black text-center p-1 w-32 rounded hover:scale-105 transition-all duration-200 cursor-pointer "
-              >
-                Linkdin
-              </a>
-            </div>
-            <div className="w-[50%] max-md:w-[100%]">hello</div>
-          </div>
-        </section>
+
         {/* ----------- Projects ----------- */}
         <section className="w-full h-auto flex justify-center items-center flex-col">
           <h1 className="text-[#E86600] text-6xl text-center uppercase font-bold">
@@ -383,6 +343,48 @@ export default function Home() {
             <SiMongodb className="text-5xl hover:scale-105 transition-all duration-300   hover:text-green-600 cursor-pointer" />
           </div>
         </section>
+        {/* ----------- About Me ----------- */}
+        <section className="w-[100%] flex flex-col justify-center items-center">
+          <h1 className="text-6xl text-[#e86600] uppercase font-bold">
+            About me
+          </h1>
+          <div className="w-[100%] flex justify-center items-center max-md:flex-col">
+            <div className="p-10 w-[60%] text-[#A1A1A1] max-md:w-[100%]">
+              <h1 className="text-2xl">
+                I’m Muhammad Farooq, a passionate Full Stack Developer
+                specializing in Next.js, React, and Tailwind CSS.
+              </h1>
+              <br />
+              <h1 className="text-2xl">
+                I love building fast, dynamic, and scalable web applications
+                that blend clean code with modern design. My focus is on
+                creating seamless user experiences and efficient back-end logic
+                using tools like Next.js API routes, Node.js, and MongoDB.
+              </h1>
+              <br />
+              <h1 className="text-2xl">
+                I enjoy turning complex problems into simple, elegant solutions
+                — from crafting responsive UIs to managing data flow and APIs.
+                I’m always learning, exploring new technologies, and improving
+                my skills to stay ahead in the ever-evolving web ecosystem.
+              </h1>
+              <br />
+              <h1 className="text-2xl">
+                My mission is to deliver high-quality, performance-driven
+                digital products that make a real impact.
+              </h1>
+              <br />
+              <a
+                href="#"
+                className="absolute bg-[#E86600] text-black text-center p-1 w-32 rounded hover:scale-105 transition-all duration-200 cursor-pointer "
+              >
+                Linkdin
+              </a>
+            </div>
+            <div className="w-[50%] max-md:w-[100%]">hello</div>
+          </div>
+        </section>
+        {/*----------- Footer -------------- */}
         <footer className="w-full h-auto p-10">
           <div className="flex justify-around flex-wrap max-md:gap-4">
             <div className="max-md:w-full w-52 text-white">
