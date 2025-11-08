@@ -41,7 +41,7 @@ export default function Home() {
           Contact / Footer – Invite collaboration
           */}
         <Navbar />
-        <main className="flex w-[100%] flex-row max-lg:flex-col p-10">
+        <main className="flex w-[100%] h-[80%] flex-row max-lg:flex-col p-10">
           <section className="w-[50%] max-lg:w-[100%]">
             <h1 className="text-gray-200 text-2xl">
               Hi I am <br /> Muhammad Farooq

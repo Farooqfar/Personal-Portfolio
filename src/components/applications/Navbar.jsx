@@ -4,7 +4,7 @@ import React from "react";
 function Navbar() {
   return (
     <>
-      <nav className="flex justify-around items-center bg-black text-white pt-4">
+      <nav className="flex justify-between items-center bg-black text-white pt-4 p-10 max-lg:hidden">
         <ul className="flex justify-center items-center">
           <Image
             src="/logo.png"
