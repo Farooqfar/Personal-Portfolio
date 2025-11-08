@@ -13,6 +13,11 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { SiExpress } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
+import { FaPhoneAlt } from "react-icons/fa";
+import { TbWorldCode } from "react-icons/tb";
+
+import { MdMarkEmailUnread } from "react-icons/md";
+
 import Link from "next/link";
 import Image from "next/image";
 
@@ -36,12 +41,12 @@ export default function Home() {
           Contact / Footer – Invite collaboration
           */}
         <Navbar />
-        <main className="flex w-[100%] flex-row max-lg:flex-col">
-          <section className=" p-10 w-[50%] max-lg:w-[100%]">
+        <main className="flex w-[100%] flex-row max-lg:flex-col p-10">
+          <section className="w-[50%] max-lg:w-[100%]">
             <h1 className="text-gray-200 text-2xl">
               Hi I am <br /> Muhammad Farooq
             </h1>
-            <h1 className="uppercase text-5xl font-bold text-[#E86600] mt-5">
+            <h1 className="uppercase text-6xl font-bold text-[#E86600] mt-5">
               website developer
             </h1>
             <div className="flex gap-3 mt-5">
@@ -96,7 +101,9 @@ export default function Home() {
         </main>
         {/* ----------- About Me ----------- */}
         <section className="w-[100%] flex flex-col justify-center items-center">
-          <h1 className="text-6xl text-[#e86600]">About me</h1>
+          <h1 className="text-6xl text-[#e86600] uppercase font-bold">
+            About me
+          </h1>
           <div className="w-[100%] flex justify-center items-center max-md:flex-col">
             <div className="p-10 w-[60%] text-[#A1A1A1] max-md:w-[100%]">
               <h1 className="text-2xl">
@@ -135,7 +142,9 @@ export default function Home() {
         </section>
         {/* ----------- Projects ----------- */}
         <section className="w-full h-auto flex justify-center items-center flex-col">
-          <h1 className="text-[#E86600] text-6xl text-center">Projects</h1>
+          <h1 className="text-[#E86600] text-6xl text-center uppercase font-bold">
+            Projects
+          </h1>
           <div className="mt-10 w-[100%] h-auto grid grid-cols-3 place-items-center gap-5 max-lg:grid-cols-1 ">
             <div className="group border hover:scale-105 relative w-100 h-auto p-4 flex flex-col justify-around items-start gap-4 rounded  hover:bg-gradient-to-r from-black to-gray-900 transition-all duration-300 hover:shadow-2xl   ">
               <div className="w-[100%]">
@@ -339,11 +348,13 @@ export default function Home() {
         </section>
         {/* ---------- Skills ------------- */}
         <section className="mt-10 flex justify-center items-center flex-col">
-          <h1 className="text-[#e86600] text-6xl">Skills</h1>
+          <h1 className="text-[#e86600] text-6xl uppercase font-bold">
+            Skills
+          </h1>
           <div className="mt-10 flex justify-center items-center w-full gap-10 max-md:flex-col">
             <div className="w-100 h-74 flex flex-col justify-center items-center text-center border p-5 gap-4 hover:bg-gradient-to-l to-black from-gray-900">
               <MdDeveloperMode className="text-[#e86600] text-7xl" />
-              <h1 className="text-2xl">Frontend Developer</h1>
+              <h1 className="text-2xl">Front-End Development</h1>
               <p className="text-gray-400">
                 Building fast, responsive, and SEO-friendly web apps using
                 Next.js, React, and Tailwind CSS — focused on clean design and
@@ -351,8 +362,8 @@ export default function Home() {
               </p>
             </div>
             <div className="w-100 h-74 flex flex-col justify-center items-center text-center border p-5 gap-4 hover:bg-gradient-to-l to-black from-gray-900">
-              <FaDatabase className="text-[#e86600] text-7xl" />
-              <h1 className="text-2xl">Backend Developer</h1>
+              <TbWorldCode className="text-[#e86600] text-7xl" />
+              <h1 className="text-2xl">Full Stack Development</h1>
               <p className="text-gray-400">
                 Experienced in building secure, scalable, and efficient
                 server-side applications using Node.js, Express, and databases
@@ -361,38 +372,70 @@ export default function Home() {
             </div>
           </div>
           <div className="w-full h-auto flex justify-center items-center flex-wrap gap-4 mt-5">
-            <FaHtml5 className="text-5xl  hover:scale-105 transition-all duration-300 " />
-            <FaCss3Alt className="text-5xl  hover:scale-105 transition-all duration-300" />
-            <RiTailwindCssFill className="text-5xl hover:scale-105 transition-all duration-300 " />
-            <FaJsSquare className="text-5xl hover:scale-105 transition-all duration-300 " />
-            <FaReact className="text-5xl  hover:scale-105 transition-all duration-300" />
-            <RiNextjsFill className="text-5xl  hover:scale-105 transition-all duration-300" />
-            <SiExpress className="text-5xl  hover:scale-105 transition-all duration-300" />
-            <FaNodeJs className="text-5xl  hover:scale-105 transition-all duration-300" />
-            <SiMongodb className="text-5xl hover:scale-105 transition-all duration-300 " />
+            <FaHtml5 className="text-5xl  hover:scale-105 transition-all duration-300 hover:text-red-600 cursor-pointer" />
+            <FaCss3Alt className="text-5xl  hover:scale-105 transition-all duration-300 hover:text-blue-600 cursor-pointer" />
+            <RiTailwindCssFill className="text-5xl hover:scale-105 transition-all duration-300 hover:text-blue-600 cursor-pointer" />
+            <FaJsSquare className="text-5xl hover:scale-105 transition-all duration-300 hover:text-yellow-600 cursor-pointer" />
+            <FaReact className="text-5xl  hover:scale-105 transition-all duration-300 hover:text-blue-600 cursor-pointer" />
+            <RiNextjsFill className="text-5xl  hover:scale-105 transition-all duration-300 hover:text-gray-600 cursor-pointer" />
+            <SiExpress className="text-5xl  hover:scale-105 transition-all duration-300 hover:text-green-600 cursor-pointer" />
+            <FaNodeJs className="text-5xl  hover:scale-105 transition-all duration-300  hover:text-green-600 cursor-pointer" />
+            <SiMongodb className="text-5xl hover:scale-105 transition-all duration-300   hover:text-green-600 cursor-pointer" />
           </div>
         </section>
-        <footer className="w-full h-auto p-20">
-          <div>
-            <div className="text-white flex flex-col">
-              <h1 className="text-gray-200">Catalog</h1>
-              <Link href="home" className="text-gray-500">
-                Home
-              </Link>
-              <Link href="project" className="text-gray-500">
-                Project
-              </Link>
-              <Link href="about Us" className="text-gray-500">
-                AboutUs
-              </Link>
-              <Link href="resume" className="text-gray-500">
-                Resume
-              </Link>
+        <footer className="w-full h-auto p-10">
+          <div className="flex justify-around flex-wrap max-md:gap-4">
+            <div className="max-md:w-full w-52 text-white">
+              <h1 className="text-xl font-bold mb-10">About</h1>
+              <p className="text-gray-500">
+                A passionate technologist fueled by innovation and continuous
+                learning, dedicated to creating meaningful impact in the world
+                of technology.
+              </p>
             </div>
-            <div></div>
+            <div className="max-md:w-full flex justify-start items-start flex-col">
+              <h1 className="text-xl font-bold mb-10">Catalog</h1>
+              <div className="flex flex-col">
+                <Link href="home" className="text-gray-500 hover:text-gray-600">
+                  Home
+                </Link>
+                <Link
+                  href="project"
+                  className="text-gray-500 hover:text-gray-600"
+                >
+                  Project
+                </Link>
+                <Link
+                  href="about Us"
+                  className="text-gray-500 hover:text-gray-600"
+                >
+                  AboutUs
+                </Link>
+                <Link
+                  href="resume"
+                  className="text-gray-500 hover:text-gray-600"
+                >
+                  Resume
+                </Link>
+              </div>
+            </div>
+            <div className="max-md:w-full ">
+              <h1 className="text-xl font-bold">Have a Questions?</h1>
+              <div className="flex gap-3 justify-start items-center mt-10">
+                <FaPhoneAlt className="text-gray-500" />
+                <p className="text-gray-500">+923216561397</p>
+              </div>
+              <div className="flex gap-3 justify-start items-center">
+                <MdMarkEmailUnread className="text-gray-500" />
+                <p className="text-gray-500">info4895@gmail.com</p>
+              </div>
+            </div>
           </div>
-          <div className="w-full text-center">
-            <p className="text-gray-500 text-sm">powered by Muhammad Farooq</p>
+          <div className="w-[100%] text-center mt-5">
+            <p className="text-gray-500 text-sm">
+              Copyright © {new Date().getFullYear()} All rights reserved |
+              Muhammad Farooq
+            </p>
           </div>
         </footer>
       </main>
