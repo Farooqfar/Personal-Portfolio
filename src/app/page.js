@@ -13,13 +13,13 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { SiExpress } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
-
+import Link from "next/link";
 import Image from "next/image";
 
 export default function Home() {
   return (
     <>
-      <main className=" w-full h-screen">
+      <main className=" w-full h-screen selection:bg-amber-600 selection:text-gray-300">
         {/* 
           Hero Section – Eye-catching intro
 
@@ -341,7 +341,7 @@ export default function Home() {
         <section className="mt-10 flex justify-center items-center flex-col">
           <h1 className="text-[#e86600] text-6xl">Skills</h1>
           <div className="mt-10 flex justify-center items-center w-full gap-10 max-md:flex-col">
-            <div className="w-100 flex flex-col justify-center items-center text-center border p-5 gap-4">
+            <div className="w-100 h-74 flex flex-col justify-center items-center text-center border p-5 gap-4 hover:bg-gradient-to-l to-black from-gray-900">
               <MdDeveloperMode className="text-[#e86600] text-7xl" />
               <h1 className="text-2xl">Frontend Developer</h1>
               <p className="text-gray-400">
@@ -350,7 +350,7 @@ export default function Home() {
                 smooth user experience.
               </p>
             </div>
-            <div className="w-100 flex flex-col justify-center items-center text-center border p-5 gap-4">
+            <div className="w-100 h-74 flex flex-col justify-center items-center text-center border p-5 gap-4 hover:bg-gradient-to-l to-black from-gray-900">
               <FaDatabase className="text-[#e86600] text-7xl" />
               <h1 className="text-2xl">Backend Developer</h1>
               <p className="text-gray-400">
@@ -372,6 +372,29 @@ export default function Home() {
             <SiMongodb className="text-5xl hover:scale-105 transition-all duration-300 " />
           </div>
         </section>
+        <footer className="w-full h-auto p-20">
+          <div>
+            <div className="text-white flex flex-col">
+              <h1 className="text-gray-200">Catalog</h1>
+              <Link href="home" className="text-gray-500">
+                Home
+              </Link>
+              <Link href="project" className="text-gray-500">
+                Project
+              </Link>
+              <Link href="about Us" className="text-gray-500">
+                AboutUs
+              </Link>
+              <Link href="resume" className="text-gray-500">
+                Resume
+              </Link>
+            </div>
+            <div></div>
+          </div>
+          <div className="w-full text-center">
+            <p className="text-gray-500 text-sm">powered by Muhammad Farooq</p>
+          </div>
+        </footer>
       </main>
     </>
   );
