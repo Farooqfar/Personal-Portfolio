@@ -307,98 +307,103 @@ export default function Home() {
           </div>
         </section>
         {/* ---------- Skills ------------- */}
-        <section className="w-full flex justify-around items-start">
-          <div className="flex flex-col gap-5">
-            <div className="w-100">
-              <div className="flex justify-between text-gray-500">
-                <p className="text-red-500">HTML</p>
-                <p className="text-red-500">90%</p>
+        <section className="mt-10 w-full h-auto flex justify-center items-center flex-col">
+          <h1 className="text-[#e86600] text-6xl uppercase font-bold">
+            Skills
+          </h1>
+          <div className="w-full flex justify-around items-start">
+            <div className="flex flex-col gap-5">
+              <div className="w-100">
+                <div className="flex justify-between text-gray-500">
+                  <p className="text-red-500">HTML</p>
+                  <p className="text-red-500">90%</p>
+                </div>
+                <div className="w-[100%] relative bg-gray-500 h-3 rounded-2xl">
+                  <div className="w-[90%] h-[100%] bg-[#F86D00] absolute top-0 left-0 rounded-2xl"></div>
+                </div>
               </div>
-              <div className="w-[100%] relative bg-gray-500 h-3 rounded-2xl">
-                <div className="w-[90%] h-[100%] bg-[#F86D00] absolute top-0 left-0 rounded-2xl"></div>
+              <div className="w-100">
+                <div className="flex justify-between text-gray-500">
+                  <p className="text-blue-400">CSS</p>
+                  <p className="text-blue-400">80%</p>
+                </div>
+                <div className="w-[100%] relative bg-gray-500 h-3 rounded-2xl">
+                  <div className="w-[80%] h-[100%] bg-[#F86D00] absolute top-0 left-0 rounded-2xl"></div>
+                </div>
               </div>
-            </div>
-            <div className="w-100">
-              <div className="flex justify-between text-gray-500">
-                <p className="text-blue-400">CSS</p>
-                <p className="text-blue-400">80%</p>
+              <div className="w-100">
+                <div className="flex justify-between text-gray-500">
+                  <p className="text-blue-500">Tailwind</p>
+                  <p className="text-blue-400">80%</p>
+                </div>
+                <div className="w-[100%] relative bg-gray-500 h-3 rounded-2xl">
+                  <div className="w-[80%] h-[100%] bg-[#F86D00] absolute top-0 left-0 rounded-2xl"></div>
+                </div>
               </div>
-              <div className="w-[100%] relative bg-gray-500 h-3 rounded-2xl">
-                <div className="w-[80%] h-[100%] bg-[#F86D00] absolute top-0 left-0 rounded-2xl"></div>
+              <div className="w-100">
+                <div className="flex justify-between text-gray-500">
+                  <p className="text-yellow-500">JS</p>
+                  <p className="text-yellow-500">75%</p>
+                </div>
+                <div className="w-[100%] relative bg-gray-500 h-3 rounded-2xl">
+                  <div className="w-[75%] h-[100%] bg-[#F86D00] absolute top-0 left-0 rounded-2xl"></div>
+                </div>
               </div>
-            </div>
-            <div className="w-100">
-              <div className="flex justify-between text-gray-500">
-                <p className="text-blue-500">Tailwind</p>
-                <p className="text-blue-400">80%</p>
-              </div>
-              <div className="w-[100%] relative bg-gray-500 h-3 rounded-2xl">
-                <div className="w-[80%] h-[100%] bg-[#F86D00] absolute top-0 left-0 rounded-2xl"></div>
-              </div>
-            </div>
-            <div className="w-100">
-              <div className="flex justify-between text-gray-500">
-                <p className="text-yellow-500">JS</p>
-                <p className="text-yellow-500">75%</p>
-              </div>
-              <div className="w-[100%] relative bg-gray-500 h-3 rounded-2xl">
-                <div className="w-[75%] h-[100%] bg-[#F86D00] absolute top-0 left-0 rounded-2xl"></div>
-              </div>
-            </div>
-            <div className="w-100">
-              <div className="flex justify-between text-gray-500">
-                <p className="text-blue-500">React</p>
-                <p className="text-blue-500">84%</p>
-              </div>
-              <div className="w-[100%] relative bg-gray-500 h-3 rounded-2xl">
-                <div className="w-[84%] h-[100%] bg-[#F86D00] absolute top-0 left-0 rounded-2xl"></div>
-              </div>
-            </div>
-          </div>
-          <div className="flex flex-col gap-5">
-            <div className="w-100">
-              <div className="flex justify-between text-gray-500">
-                <p className="text-gray-300">Next Js</p>
-                <p className="text-gray-300">75%</p>
-              </div>
-              <div className="w-[100%] relative bg-gray-500 h-3 rounded-2xl">
-                <div className="w-[75%] h-[100%] bg-[#F86D00] absolute top-0 left-0 rounded-2xl"></div>
+              <div className="w-100">
+                <div className="flex justify-between text-gray-500">
+                  <p className="text-blue-500">React</p>
+                  <p className="text-blue-500">84%</p>
+                </div>
+                <div className="w-[100%] relative bg-gray-500 h-3 rounded-2xl">
+                  <div className="w-[84%] h-[100%] bg-[#F86D00] absolute top-0 left-0 rounded-2xl"></div>
+                </div>
               </div>
             </div>
-            <div className="w-100">
-              <div className="flex justify-between text-gray-500">
-                <p className="text-green-500">Node JS</p>
-                <p className="text-green-500">85%</p>
+            <div className="flex flex-col gap-5">
+              <div className="w-100">
+                <div className="flex justify-between text-gray-500">
+                  <p className="text-gray-300">Next Js</p>
+                  <p className="text-gray-300">75%</p>
+                </div>
+                <div className="w-[100%] relative bg-gray-500 h-3 rounded-2xl">
+                  <div className="w-[75%] h-[100%] bg-[#F86D00] absolute top-0 left-0 rounded-2xl"></div>
+                </div>
               </div>
-              <div className="w-[100%] relative bg-gray-500 h-3 rounded-2xl">
-                <div className="w-[85%] h-[100%] bg-[#F86D00] absolute top-0 left-0 rounded-2xl"></div>
+              <div className="w-100">
+                <div className="flex justify-between text-gray-500">
+                  <p className="text-green-500">Node JS</p>
+                  <p className="text-green-500">85%</p>
+                </div>
+                <div className="w-[100%] relative bg-gray-500 h-3 rounded-2xl">
+                  <div className="w-[85%] h-[100%] bg-[#F86D00] absolute top-0 left-0 rounded-2xl"></div>
+                </div>
               </div>
-            </div>
-            <div className="w-100">
-              <div className="flex justify-between text-gray-500">
-                <p className="text-green-500">Express JS</p>
-                <p className="text-green-500">80%</p>
+              <div className="w-100">
+                <div className="flex justify-between text-gray-500">
+                  <p className="text-green-500">Express JS</p>
+                  <p className="text-green-500">80%</p>
+                </div>
+                <div className="w-[100%] relative bg-gray-500 h-3 rounded-2xl">
+                  <div className="w-[80%] h-[100%] bg-[#F86D00] absolute top-0 left-0 rounded-2xl"></div>
+                </div>
               </div>
-              <div className="w-[100%] relative bg-gray-500 h-3 rounded-2xl">
-                <div className="w-[80%] h-[100%] bg-[#F86D00] absolute top-0 left-0 rounded-2xl"></div>
+              <div className="w-100">
+                <div className="flex justify-between text-gray-500">
+                  <p className="text-green-500">MongoDB</p>
+                  <p className="text-green-500">85%</p>
+                </div>
+                <div className="w-[100%] relative bg-gray-500 h-3 rounded-2xl">
+                  <div className="w-[85%] h-[100%] bg-[#F86D00] absolute top-0 left-0 rounded-2xl"></div>
+                </div>
               </div>
-            </div>
-            <div className="w-100">
-              <div className="flex justify-between text-gray-500">
-                <p className="text-green-500">MongoDB</p>
-                <p className="text-green-500">85%</p>
-              </div>
-              <div className="w-[100%] relative bg-gray-500 h-3 rounded-2xl">
-                <div className="w-[85%] h-[100%] bg-[#F86D00] absolute top-0 left-0 rounded-2xl"></div>
-              </div>
-            </div>
-            <div className="w-100">
-              <div className="flex justify-between text-gray-500">
-                <p className="text-green-500">Shopify</p>
-                <p className="text-green-500">75%</p>
-              </div>
-              <div className="w-[100%] relative bg-gray-500 h-3 rounded-2xl">
-                <div className="w-[75%] h-[100%] bg-[#F86D00] absolute top-0 left-0 rounded-2xl"></div>
+              <div className="w-100">
+                <div className="flex justify-between text-gray-500">
+                  <p className="text-green-500">Shopify</p>
+                  <p className="text-green-500">75%</p>
+                </div>
+                <div className="w-[100%] relative bg-gray-500 h-3 rounded-2xl">
+                  <div className="w-[75%] h-[100%] bg-[#F86D00] absolute top-0 left-0 rounded-2xl"></div>
+                </div>
               </div>
             </div>
           </div>
