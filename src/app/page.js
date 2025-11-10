@@ -89,21 +89,21 @@ export default function Home() {
               </div>
             </div>
           </section>
-          <section className="relative w-[50%] max-lg:w-[100%]">
+          <section className="relative w-[50%] max-lg:w-[100%] flex justify-center items-center">
             <Image
-              src=""
+              src="/profile.jpg"
               width={100}
               height={100}
               alt="Profile"
-              className="absolute"
+              className=""
             />
           </section>
         </main>
 
         {/* ----------- Projects ----------- */}
-        <section className="w-full h-auto flex justify-center items-center flex-col">
+        <section className="mt-20 w-full h-auto flex justify-center items-center flex-col">
           <h1 className="text-[#E86600] text-6xl text-center uppercase font-bold">
-            Projects
+            My Projects
           </h1>
           <div className="mt-10 w-[100%] h-auto grid grid-cols-3 place-items-center gap-5 max-lg:grid-cols-1 ">
             <div className="group border hover:scale-105 relative w-100 h-auto p-4 flex flex-col justify-around items-start gap-4 rounded  hover:bg-gradient-to-r from-black to-gray-900 transition-all duration-300 hover:shadow-2xl   ">
@@ -309,11 +309,11 @@ export default function Home() {
         {/* ---------- Skills ------------- */}
         <section className="mt-10 w-full h-auto flex justify-center items-center flex-col">
           <h1 className="text-[#e86600] text-6xl uppercase font-bold">
-            Skills
+            My Skills
           </h1>
-          <div className="w-full flex justify-around items-start">
-            <div className="flex flex-col gap-5">
-              <div className="w-100">
+          <div className="mt-5 w-full flex justify-around items-start max-md:flex-col">
+            <div className="w-full flex flex-col gap-5 justify-center items-center">
+              <div className="w-100 max-md:w-80 ">
                 <div className="flex justify-between text-gray-500">
                   <p className="text-red-500">HTML</p>
                   <p className="text-red-500">90%</p>
@@ -322,7 +322,7 @@ export default function Home() {
                   <div className="w-[90%] h-[100%] bg-[#F86D00] absolute top-0 left-0 rounded-2xl"></div>
                 </div>
               </div>
-              <div className="w-100">
+              <div className="w-100 max-md:w-80 ">
                 <div className="flex justify-between text-gray-500">
                   <p className="text-blue-400">CSS</p>
                   <p className="text-blue-400">80%</p>
@@ -331,7 +331,7 @@ export default function Home() {
                   <div className="w-[80%] h-[100%] bg-[#F86D00] absolute top-0 left-0 rounded-2xl"></div>
                 </div>
               </div>
-              <div className="w-100">
+              <div className="w-100 max-md:w-80 ">
                 <div className="flex justify-between text-gray-500">
                   <p className="text-blue-500">Tailwind</p>
                   <p className="text-blue-400">80%</p>
@@ -340,16 +340,16 @@ export default function Home() {
                   <div className="w-[80%] h-[100%] bg-[#F86D00] absolute top-0 left-0 rounded-2xl"></div>
                 </div>
               </div>
-              <div className="w-100">
+              <div className="w-100 max-md:w-80 ">
                 <div className="flex justify-between text-gray-500">
                   <p className="text-yellow-500">JS</p>
-                  <p className="text-yellow-500">75%</p>
+                  <p className="text-yellow-500">85%</p>
                 </div>
                 <div className="w-[100%] relative bg-gray-500 h-3 rounded-2xl">
-                  <div className="w-[75%] h-[100%] bg-[#F86D00] absolute top-0 left-0 rounded-2xl"></div>
+                  <div className="w-[85%] h-[100%] bg-[#F86D00] absolute top-0 left-0 rounded-2xl"></div>
                 </div>
               </div>
-              <div className="w-100">
+              <div className="w-100 max-md:w-80 ">
                 <div className="flex justify-between text-gray-500">
                   <p className="text-blue-500">React</p>
                   <p className="text-blue-500">84%</p>
@@ -359,8 +359,8 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="flex flex-col gap-5">
-              <div className="w-100">
+            <div className="w-full flex flex-col gap-5 justify-center items-center">
+              <div className="w-100 max-md:w-80 ">
                 <div className="flex justify-between text-gray-500">
                   <p className="text-gray-300">Next Js</p>
                   <p className="text-gray-300">75%</p>
@@ -369,7 +369,7 @@ export default function Home() {
                   <div className="w-[75%] h-[100%] bg-[#F86D00] absolute top-0 left-0 rounded-2xl"></div>
                 </div>
               </div>
-              <div className="w-100">
+              <div className="w-100 max-md:w-80 ">
                 <div className="flex justify-between text-gray-500">
                   <p className="text-green-500">Node JS</p>
                   <p className="text-green-500">85%</p>
@@ -378,7 +378,7 @@ export default function Home() {
                   <div className="w-[85%] h-[100%] bg-[#F86D00] absolute top-0 left-0 rounded-2xl"></div>
                 </div>
               </div>
-              <div className="w-100">
+              <div className="w-100 max-md:w-80 ">
                 <div className="flex justify-between text-gray-500">
                   <p className="text-green-500">Express JS</p>
                   <p className="text-green-500">80%</p>
@@ -387,7 +387,7 @@ export default function Home() {
                   <div className="w-[80%] h-[100%] bg-[#F86D00] absolute top-0 left-0 rounded-2xl"></div>
                 </div>
               </div>
-              <div className="w-100">
+              <div className="w-100 max-md:w-80 ">
                 <div className="flex justify-between text-gray-500">
                   <p className="text-green-500">MongoDB</p>
                   <p className="text-green-500">85%</p>
@@ -396,7 +396,7 @@ export default function Home() {
                   <div className="w-[85%] h-[100%] bg-[#F86D00] absolute top-0 left-0 rounded-2xl"></div>
                 </div>
               </div>
-              <div className="w-100">
+              <div className="w-100 max-md:w-80 ">
                 <div className="flex justify-between text-gray-500">
                   <p className="text-green-500">Shopify</p>
                   <p className="text-green-500">75%</p>
@@ -483,7 +483,15 @@ export default function Home() {
                 Linkdin
               </a>
             </div>
-            <div className="w-[50%] max-md:w-[100%]">hello</div>
+            <div className="w-[40%] flex justify-center items-center max-md:w-[100%]">
+              <Image
+                src="/profile.jpg"
+                width={100}
+                height={100}
+                alt="Profile"
+                className="w-76"
+              />
+            </div>
           </div>
         </section>
         {/*----------- Footer -------------- */}
