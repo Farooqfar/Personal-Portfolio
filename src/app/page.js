@@ -309,7 +309,7 @@ export default function Home() {
         {/* ---------- Skills ------------- */}
         <section className="mt-10 flex justify-center items-center flex-col">
           <h1 className="text-[#e86600] text-6xl uppercase font-bold">
-            Skills
+            Service
           </h1>
           <div className="mt-10 flex justify-center items-center w-full gap-10 max-md:flex-col">
             <div className="w-100 h-74 flex flex-col justify-center items-center text-center border p-5 gap-4 hover:bg-gradient-to-l to-black from-gray-900">
@@ -344,12 +344,12 @@ export default function Home() {
           </div>
         </section>
         {/* ----------- About Me ----------- */}
-        <section className="w-[100%] flex flex-col justify-center items-center">
+        <section className="mt-10 w-[100%] flex flex-col justify-center items-center">
           <h1 className="text-6xl text-[#e86600] uppercase font-bold">
             About me
           </h1>
           <div className="w-[100%] flex justify-center items-center max-md:flex-col">
-            <div className="p-10 w-[60%] text-[#A1A1A1] max-md:w-[100%]">
+            <div className="p-10 w-[60%] text-gray-500 max-md:w-[100%]">
               <h1 className="text-2xl">
                 I’m Muhammad Farooq, a passionate Full Stack Developer
                 specializing in Next.js, React, and Tailwind CSS.
@@ -385,7 +385,7 @@ export default function Home() {
           </div>
         </section>
         {/*----------- Footer -------------- */}
-        <footer className="w-full h-auto p-10">
+        <footer className="mt-20 w-full h-auto p-10">
           <div className="flex justify-around flex-wrap max-md:gap-4">
             <div className="max-md:w-full w-52 text-white">
               <h1 className="text-xl font-bold mb-10">About</h1>
