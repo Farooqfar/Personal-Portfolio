@@ -1,3 +1,4 @@
+"use client";
 import Navbar from "@/components/applications/Navbar";
 import { Button } from "@/components/ui/button";
 import { RiInstagramFill } from "react-icons/ri";
@@ -20,8 +21,23 @@ import { MdMarkEmailUnread } from "react-icons/md";
 
 import Link from "next/link";
 import Image from "next/image";
+import { useState } from "react";
 
 export default function Home() {
+  const [form, setForm] = useState({
+    name: "",
+    email: "",
+    subject: "",
+    text: "",
+  });
+  const handleFormValue = (e) => {
+    let { name, value } = e.target;
+    setForm((prev) => ({ ...prev, [name]: value }));
+  };
+  const handleFormSubmit = (e) => {
+    e.preventDefault();
+    console.log(form);
+  };
   return (
     <>
       <main className=" w-full h-screen selection:bg-amber-600 selection:text-gray-300">
@@ -495,41 +511,66 @@ export default function Home() {
           </div>
         </section>
         {/* ----------- Contact Me --------- */}
-        <section>
-          <h1>Contact Me</h1>
-          <p>
-            Currently serving in a dedicated professional capacity, focused on
-            delivering excellence and contributing value in my role.
-          </p>
-          <form>
+        <section className="mt-10 w-[100%] flex flex-col justify-center items-center">
+          <h1 className="text-5xl uppercase text-[#E86600] font-bold">
+            Contact Me
+          </h1>
+          <marquee className="text-gray-700 flex w-100">
+            <p>
+              Currently serving in a dedicated professional capacity, focused on
+              delivering excellence and contributing value in my role.
+            </p>
+          </marquee>
+
+          <form
+            className="w-[50%] flex flex-col gap-5 max-md:w-[90%] mt-5"
+            onSubmit={handleFormSubmit}
+          >
             <div>
-              <h1 className="text-gray-400">Name</h1>
+              <h1 className="text-gray-700 text-xl">Name</h1>
               <input
                 type="text"
                 placeholder="Name"
-                className="border border-[#E86600] p-1 outline-0 caret-[#E86600] text-[#E86600]"
+                className="w-full border border-[#E86600] p-1 outline-0 caret-[#E86600] text-[#E86600]"
+                name="name"
+                value={form.name}
+                onChange={handleFormValue}
               />
             </div>
             <div>
-              <h1 className="text-gray-400">Email</h1>
+              <h1 className="text-gray-700 text-xl">Email</h1>
               <input
                 type="email"
                 placeholder="Email"
-                className="border border-[#E86600] p-1 outline-0 caret-[#E86600] text-[#E86600]"
+                className="w-full border border-[#E86600] p-1 outline-0 caret-[#E86600] text-[#E86600]"
+                name="email"
+                value={form.email}
+                onChange={handleFormValue}
               />
             </div>
             <div>
-              <h1 className="text-gray-400">Subject</h1>
+              <h1 className="text-gray-700 text-xl">Subject</h1>
               <input
                 type="text"
                 placeholder="Subject"
-                className="border border-[#E86600] p-1 outline-0 caret-[#E86600] text-[#E86600]"
+                className="w-full border border-[#E86600] p-1 outline-0 caret-[#E86600] text-[#E86600]"
+                name="subject"
+                value={form.subject}
+                onChange={handleFormValue}
               />
             </div>
             <div>
-              <textarea className="border border-[#E86600] p-1 outline-0 caret-[#E86600] text-[#E86600] resize-none"></textarea>
+              <textarea
+                className="w-full border border-[#E86600] p-1 outline-0 caret-[#E86600] text-[#E86600] resize-none"
+                name="text"
+                value={form.text}
+                onChange={handleFormValue}
+              ></textarea>
             </div>
-            <button type="submit" className="bg-[#E86600] p-1 w-20 rounded">
+            <button
+              type="submit"
+              className="bg-[#E86600] p-1 w-20 rounded hover:scale-105 transition-all duration-300 cursor-pointer"
+            >
               Submit
             </button>
           </form>
