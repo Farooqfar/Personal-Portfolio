@@ -494,6 +494,46 @@ export default function Home() {
             </div>
           </div>
         </section>
+        {/* ----------- Contact Me --------- */}
+        <section>
+          <h1>Contact Me</h1>
+          <p>
+            Currently serving in a dedicated professional capacity, focused on
+            delivering excellence and contributing value in my role.
+          </p>
+          <form>
+            <div>
+              <h1 className="text-gray-400">Name</h1>
+              <input
+                type="text"
+                placeholder="Name"
+                className="border border-[#E86600] p-1 outline-0 caret-[#E86600] text-[#E86600]"
+              />
+            </div>
+            <div>
+              <h1 className="text-gray-400">Email</h1>
+              <input
+                type="email"
+                placeholder="Email"
+                className="border border-[#E86600] p-1 outline-0 caret-[#E86600] text-[#E86600]"
+              />
+            </div>
+            <div>
+              <h1 className="text-gray-400">Subject</h1>
+              <input
+                type="text"
+                placeholder="Subject"
+                className="border border-[#E86600] p-1 outline-0 caret-[#E86600] text-[#E86600]"
+              />
+            </div>
+            <div>
+              <textarea className="border border-[#E86600] p-1 outline-0 caret-[#E86600] text-[#E86600] resize-none"></textarea>
+            </div>
+            <button type="submit" className="bg-[#E86600] p-1 w-20 rounded">
+              Submit
+            </button>
+          </form>
+        </section>
         {/*----------- Footer -------------- */}
         <footer className="mt-20 w-full h-auto p-10">
           <div className="flex justify-around flex-wrap max-md:gap-4">
