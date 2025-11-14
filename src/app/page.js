@@ -41,21 +41,7 @@ export default function Home() {
   return (
     <>
       <main className=" w-full h-screen selection:bg-amber-600 selection:text-gray-300">
-        {/* 
-          Hero Section – Eye-catching intro
-
-          About Me – Quick background and passion
-
-          Skills / Tech Stack – Show your tools and expertise
-
-          Projects – Showcase your top work
-
-          Education – Your academic foundation
-
-          Testimonials – Social proof and credibility
-
-          Contact / Footer – Invite collaboration
-          */}
+       
         <Navbar />
         <main className="flex w-[100%] h-[80%] flex-row max-lg:flex-col p-10">
           <section className="w-[50%] max-lg:w-[100%]">
