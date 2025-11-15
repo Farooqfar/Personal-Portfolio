@@ -1,4 +1,5 @@
 "use client";
+import Spline from "@splinetool/react-spline";
 import Navbar from "@/components/applications/Navbar";
 import { Button } from "@/components/ui/button";
 import { RiInstagramFill } from "react-icons/ri";
@@ -22,6 +23,8 @@ import { MdMarkEmailUnread } from "react-icons/md";
 import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
+import Mymodel from "@/components/applications/Mymodels";
+import Mymodels from "@/components/applications/Mymodels";
 
 export default function Home() {
   const [form, setForm] = useState({
@@ -41,7 +44,6 @@ export default function Home() {
   return (
     <>
       <main className=" w-full h-screen selection:bg-amber-600 selection:text-gray-300">
-       
         <Navbar />
         <main className="flex w-[100%] h-[80%] flex-row max-lg:flex-col p-10">
           <section className="w-[50%] max-lg:w-[100%]">
@@ -91,13 +93,10 @@ export default function Home() {
               </div>
             </div>
           </section>
-          <section className="relative w-[50%] max-lg:w-[100%] flex justify-center items-center">
-            <Image
-              src="/profile.jpg"
-              width={100}
-              height={100}
-              alt="Profile"
-              className=""
+          <section className="relative w-[50%] h-screen max-lg:w-[100%] max-md:h-[100%] flex justify-center items-center">
+            <Spline
+              scene="https://prod.spline.design/Qux3cx0V1GrE7QEB/scene.splinecode"
+              className="w-[100%] h-[100%]"
             />
           </section>
         </main>
@@ -561,6 +560,7 @@ export default function Home() {
             </button>
           </form>
         </section>
+
         {/*----------- Footer -------------- */}
         <footer className="mt-20 w-full h-auto p-10">
           <div className="flex justify-around flex-wrap max-md:gap-4">
