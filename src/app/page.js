@@ -17,6 +17,7 @@ import { FaNodeJs } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
 import { FaPhoneAlt } from "react-icons/fa";
 import { TbWorldCode } from "react-icons/tb";
+import { FaGithub } from "react-icons/fa";
 
 import { MdMarkEmailUnread } from "react-icons/md";
 
@@ -128,180 +129,15 @@ export default function Home() {
               <div className="w-[100%] flex justify-between items-center">
                 <a
                   href="#"
-                  className="bottom-1 bg-blue-500 text-center p-1 w-28 rounded hover:scale-105 transition-all duration-200 cursor-pointer "
+                  className="bottom-1 bg-blue-500 text-center p-1 w-14 flex justify-center items-center rounded hover:scale-105 transition-all duration-200 cursor-pointer "
                 >
-                  Read more...
+                  <FaGithub className="text-2xl" />
                 </a>
                 <a
                   href="#"
                   className="bottom-1 bg-[#F86D00] text-center p-1 w-24 rounded hover:scale-105 transition-all duration-200 cursor-pointer "
                 >
-                  Visit
-                </a>
-              </div>
-            </div>
-            <div className="group border hover:scale-105 relative w-100 h-auto p-4 flex flex-col justify-around items-start gap-4 rounded  hover:bg-gradient-to-r from-black to-gray-900 transition-all duration-300 hover:shadow-2xl   ">
-              <div className="w-[100%]">
-                <Image
-                  src="/pro.jpeg"
-                  alt="projects"
-                  width={100}
-                  height={100}
-                  className="w-full"
-                />
-              </div>
-              <div className="text-start">
-                <h1 className="text-2xl">Title</h1>
-                <h1 className="text-xl text-gray-400">E-Commerce Platform</h1>
-              </div>
-              <div>
-                <h1 className="text-2xl">Description</h1>
-                <p className="text-gray-400">something</p>
-              </div>
-              <div className="w-[100%] flex justify-between items-center">
-                <a
-                  href="#"
-                  className="bottom-1 bg-blue-500 text-center p-1 w-28 rounded hover:scale-105 transition-all duration-200 cursor-pointer "
-                >
-                  Read more...
-                </a>
-                <a
-                  href="#"
-                  className="bottom-1 bg-[#F86D00] text-center p-1 w-24 rounded hover:scale-105 transition-all duration-200 cursor-pointer "
-                >
-                  Visit
-                </a>
-              </div>
-            </div>
-            <div className="group border hover:scale-105 relative w-100 h-auto p-4 flex flex-col justify-around items-start gap-4 rounded  hover:bg-gradient-to-r from-black to-gray-900 transition-all duration-300 hover:shadow-2xl   ">
-              <div className="w-[100%]">
-                <Image
-                  src="/pro.jpeg"
-                  alt="projects"
-                  width={100}
-                  height={100}
-                  className="w-full"
-                />
-              </div>
-              <div className="text-start">
-                <h1 className="text-2xl">Title</h1>
-                <h1 className="text-xl text-gray-400">E-Commerce Platform</h1>
-              </div>
-              <div>
-                <h1 className="text-2xl">Description</h1>
-                <p className="text-gray-400">something</p>
-              </div>
-              <div className="w-[100%] flex justify-between items-center">
-                <a
-                  href="#"
-                  className="bottom-1 bg-blue-500 text-center p-1 w-28 rounded hover:scale-105 transition-all duration-200 cursor-pointer "
-                >
-                  Read more...
-                </a>
-                <a
-                  href="#"
-                  className="bottom-1 bg-[#F86D00] text-center p-1 w-24 rounded hover:scale-105 transition-all duration-200 cursor-pointer "
-                >
-                  Visit
-                </a>
-              </div>
-            </div>
-            <div className="group border hover:scale-105 relative w-100 h-auto p-4 flex flex-col justify-around items-start gap-4 rounded  hover:bg-gradient-to-r from-black to-gray-900 transition-all duration-300 hover:shadow-2xl   ">
-              <div className="w-[100%]">
-                <Image
-                  src="/pro.jpeg"
-                  alt="projects"
-                  width={100}
-                  height={100}
-                  className="w-full"
-                />
-              </div>
-              <div className="text-start">
-                <h1 className="text-2xl">Title</h1>
-                <h1 className="text-xl text-gray-400">E-Commerce Platform</h1>
-              </div>
-              <div>
-                <h1 className="text-2xl">Description</h1>
-                <p className="text-gray-400">something</p>
-              </div>
-              <div className="w-[100%] flex justify-between items-center">
-                <a
-                  href="#"
-                  className="bottom-1 bg-blue-500 text-center p-1 w-28 rounded hover:scale-105 transition-all duration-200 cursor-pointer "
-                >
-                  Read more...
-                </a>
-                <a
-                  href="#"
-                  className="bottom-1 bg-[#F86D00] text-center p-1 w-24 rounded hover:scale-105 transition-all duration-200 cursor-pointer "
-                >
-                  Visit
-                </a>
-              </div>
-            </div>
-            <div className="group border hover:scale-105 relative w-100 h-auto p-4 flex flex-col justify-around items-start gap-4 rounded  hover:bg-gradient-to-r from-black to-gray-900 transition-all duration-300 hover:shadow-2xl   ">
-              <div className="w-[100%]">
-                <Image
-                  src="/pro.jpeg"
-                  alt="projects"
-                  width={100}
-                  height={100}
-                  className="w-full"
-                />
-              </div>
-              <div className="text-start">
-                <h1 className="text-2xl">Title</h1>
-                <h1 className="text-xl text-gray-400">E-Commerce Platform</h1>
-              </div>
-              <div>
-                <h1 className="text-2xl">Description</h1>
-                <p className="text-gray-400">something</p>
-              </div>
-              <div className="w-[100%] flex justify-between items-center">
-                <a
-                  href="#"
-                  className="bottom-1 bg-blue-500 text-center p-1 w-28 rounded hover:scale-105 transition-all duration-200 cursor-pointer "
-                >
-                  Read more...
-                </a>
-                <a
-                  href="#"
-                  className="bottom-1 bg-[#F86D00] text-center p-1 w-24 rounded hover:scale-105 transition-all duration-200 cursor-pointer "
-                >
-                  Visit
-                </a>
-              </div>
-            </div>
-            <div className="group border hover:scale-105 relative w-100 h-auto p-4 flex flex-col justify-around items-start gap-4 rounded  hover:bg-gradient-to-r from-black to-gray-900 transition-all duration-300 hover:shadow-2xl   ">
-              <div className="w-[100%]">
-                <Image
-                  src="/pro.jpeg"
-                  alt="projects"
-                  width={100}
-                  height={100}
-                  className="w-full"
-                />
-              </div>
-              <div className="text-start">
-                <h1 className="text-2xl">Title</h1>
-                <h1 className="text-xl text-gray-400">E-Commerce Platform</h1>
-              </div>
-              <div>
-                <h1 className="text-2xl">Description</h1>
-                <p className="text-gray-400">something</p>
-              </div>
-              <div className="w-[100%] flex justify-between items-center">
-                <a
-                  href="#"
-                  className="bottom-1 bg-blue-500 text-center p-1 w-28 rounded hover:scale-105 transition-all duration-200 cursor-pointer "
-                >
-                  Read more...
-                </a>
-                <a
-                  href="#"
-                  className="bottom-1 bg-[#F86D00] text-center p-1 w-24 rounded hover:scale-105 transition-all duration-200 cursor-pointer "
-                >
-                  Visit
+                  Live
                 </a>
               </div>
             </div>
@@ -319,7 +155,7 @@ export default function Home() {
                   <p className="text-gray-400">HTML</p>
                   <p className="text-gray-400">90%</p>
                 </div>
-                <div className="w-[100%] relative bg-gray-500 h-3 rounded-2xl">
+                <div className="w-[100%] relative bg-gray-500 h-2 rounded-2xl">
                   <div className="w-[90%] h-[100%] bg-[#F86D00] absolute top-0 left-0 rounded-2xl"></div>
                 </div>
               </div>
@@ -328,7 +164,7 @@ export default function Home() {
                   <p className="text-gray-400">CSS</p>
                   <p className="text-gray-400">80%</p>
                 </div>
-                <div className="w-[100%] relative bg-gray-500 h-3 rounded-2xl">
+                <div className="w-[100%] relative bg-gray-500 h-2 rounded-2xl">
                   <div className="w-[80%] h-[100%] bg-[#F86D00] absolute top-0 left-0 rounded-2xl"></div>
                 </div>
               </div>
@@ -337,7 +173,7 @@ export default function Home() {
                   <p className="text-gray-400">Tailwind</p>
                   <p className="text-gray-400">80%</p>
                 </div>
-                <div className="w-[100%] relative bg-gray-500 h-3 rounded-2xl">
+                <div className="w-[100%] relative bg-gray-500 h-2 rounded-2xl">
                   <div className="w-[80%] h-[100%] bg-[#F86D00] absolute top-0 left-0 rounded-2xl"></div>
                 </div>
               </div>
@@ -346,7 +182,7 @@ export default function Home() {
                   <p className="text-gray-400">JS</p>
                   <p className="text-gray-400">85%</p>
                 </div>
-                <div className="w-[100%] relative bg-gray-500 h-3 rounded-2xl">
+                <div className="w-[100%] relative bg-gray-500 h-2 rounded-2xl">
                   <div className="w-[85%] h-[100%] bg-[#F86D00] absolute top-0 left-0 rounded-2xl"></div>
                 </div>
               </div>
@@ -355,7 +191,7 @@ export default function Home() {
                   <p className="text-gray-400">React</p>
                   <p className="text-gray-400">84%</p>
                 </div>
-                <div className="w-[100%] relative bg-gray-500 h-3 rounded-2xl">
+                <div className="w-[100%] relative bg-gray-500 h-2 rounded-2xl">
                   <div className="w-[84%] h-[100%] bg-[#F86D00] absolute top-0 left-0 rounded-2xl"></div>
                 </div>
               </div>
@@ -366,7 +202,7 @@ export default function Home() {
                   <p className="text-gray-400">Next Js</p>
                   <p className="text-gray-400">75%</p>
                 </div>
-                <div className="w-[100%] relative bg-gray-500 h-3 rounded-2xl">
+                <div className="w-[100%] relative bg-gray-500 h-2 rounded-2xl">
                   <div className="w-[75%] h-[100%] bg-[#F86D00] absolute top-0 left-0 rounded-2xl"></div>
                 </div>
               </div>
@@ -375,7 +211,7 @@ export default function Home() {
                   <p className="text-gray-400">Node JS</p>
                   <p className="text-gray-400">85%</p>
                 </div>
-                <div className="w-[100%] relative bg-gray-500 h-3 rounded-2xl">
+                <div className="w-[100%] relative bg-gray-500 h-2 rounded-2xl">
                   <div className="w-[85%] h-[100%] bg-[#F86D00] absolute top-0 left-0 rounded-2xl"></div>
                 </div>
               </div>
@@ -384,7 +220,7 @@ export default function Home() {
                   <p className="text-gray-400">Express JS</p>
                   <p className="text-gray-400">80%</p>
                 </div>
-                <div className="w-[100%] relative bg-gray-500 h-3 rounded-2xl">
+                <div className="w-[100%] relative bg-gray-500 h-2 rounded-2xl">
                   <div className="w-[80%] h-[100%] bg-[#F86D00] absolute top-0 left-0 rounded-2xl"></div>
                 </div>
               </div>
@@ -393,7 +229,7 @@ export default function Home() {
                   <p className="text-gray-400">MongoDB</p>
                   <p className="text-gray-400">85%</p>
                 </div>
-                <div className="w-[100%] relative bg-gray-500 h-3 rounded-2xl">
+                <div className="w-[100%] relative bg-gray-500 h-2 rounded-2xl">
                   <div className="w-[85%] h-[100%] bg-[#F86D00] absolute top-0 left-0 rounded-2xl"></div>
                 </div>
               </div>
@@ -402,7 +238,7 @@ export default function Home() {
                   <p className="text-gray-400">Shopify</p>
                   <p className="text-gray-400">75%</p>
                 </div>
-                <div className="w-[100%] relative bg-gray-500 h-3 rounded-2xl">
+                <div className="w-[100%] relative bg-gray-500 h-2 rounded-2xl">
                   <div className="w-[75%] h-[100%] bg-[#F86D00] absolute top-0 left-0 rounded-2xl"></div>
                 </div>
               </div>
@@ -411,7 +247,7 @@ export default function Home() {
                   <p className="text-gray-400">Python</p>
                   <p className="text-gray-400">70%</p>
                 </div>
-                <div className="w-[100%] relative bg-gray-500 h-3 rounded-2xl">
+                <div className="w-[100%] relative bg-gray-500 h-2 rounded-2xl">
                   <div className="w-[75%] h-[100%] bg-[#F86D00] absolute top-0 left-0 rounded-2xl"></div>
                 </div>
               </div>
@@ -421,7 +257,7 @@ export default function Home() {
         {/* ---------- Services ------------- */}
         <section className="mt-10 flex justify-center items-center flex-col">
           <h1 className="text-[#e86600] text-6xl uppercase font-bold">
-            Service
+            ServiceS
           </h1>
           <div className="mt-10 flex justify-center items-center w-full gap-10 max-md:flex-col">
             <div className="w-100 h-74 flex flex-col justify-center items-center text-center border p-5 gap-4 hover:bg-gradient-to-l to-black from-gray-900">
@@ -462,32 +298,33 @@ export default function Home() {
           </h1>
           <div className="w-[100%] flex justify-center items-center max-md:flex-col">
             <div className="p-10 w-[60%] text-gray-500 max-md:w-[100%]">
-              <h1 className="text-2xl">
+              <h1 className="text-xl">
                 I’m Muhammad Farooq, a passionate Full Stack Developer
                 specializing in Next.js, React, and Tailwind CSS.
               </h1>
               <br />
-              <h1 className="text-2xl">
+              <h1 className="text-xl">
                 I love building fast, dynamic, and scalable web applications
                 that blend clean code with modern design. My focus is on
                 creating seamless user experiences and efficient back-end logic
                 using tools like Next.js API routes, Node.js, and MongoDB.
               </h1>
               <br />
-              <h1 className="text-2xl">
+              <h1 className="text-xl">
                 I enjoy turning complex problems into simple, elegant solutions
                 — from crafting responsive UIs to managing data flow and APIs.
                 I’m always learning, exploring new technologies, and improving
                 my skills to stay ahead in the ever-evolving web ecosystem.
               </h1>
               <br />
-              <h1 className="text-2xl">
+              <h1 className="text-xl">
                 My mission is to deliver high-quality, performance-driven
                 digital products that make a real impact.
               </h1>
               <br />
               <a
-                href="#"
+                href="https://www.linkedin.com/in/muhammadfarooqishaq/"
+                target="_blank"
                 className="absolute bg-[#E86600] text-black text-center p-1 w-32 rounded hover:scale-105 transition-all duration-200 cursor-pointer "
               >
                 Linkdin
@@ -501,6 +338,112 @@ export default function Home() {
                 alt="Profile"
                 className="w-76"
               />
+            </div>
+          </div>
+        </section>
+        {/* ---------- Resumes ------------- */}
+        <section className="mt-10 w-[100%] flex flex-col justify-center items-center">
+          <h1 className="text-6xl text-[#e86600] font-bold">Resume</h1>
+          <div className="w-full flex gap-4 p-10">
+            <div className="w-[50%]">
+              <h1 className="text-4xl text-[#e86600]">Education</h1>
+              <div className="mt-5 flex flex-col gap-8">
+                <div className="w-full h-72 flex justify-center gap-3 flex-col border p-5 hover:bg-gradient-to-l  to-black from-gray-900">
+                  <h1 className="text-2xl font-bold text-[#e86600]">
+                    2020-2024
+                  </h1>
+                  <h1 className="text-2xl ">
+                    Bachelor's Degree of Computer Science
+                  </h1>
+                  <p className="text-md text-gray-400">
+                    University of Agriculture Faisalabad - (UAF)
+                  </p>
+                  <h1 className="mt-2">
+                    Bachelor of Science in Computer Science graduate from the
+                    esteemed University of Agriculture, Faisalabad, with a
+                    strong foundation in computer science principles and
+                    practices.
+                  </h1>
+                </div>
+                <div className="w-full h-60 flex justify-center gap-3 flex-col border p-5 hover:bg-gradient-to-l  to-black from-gray-900">
+                  <h1 className="text-2xl font-bold text-[#e86600]">
+                    2018-2020
+                  </h1>
+                  <h1 className="text-2xl ">ICS</h1>
+                  <p className="text-md text-gray-400">
+                    Islamia Group Of Colleges
+                  </p>
+                  <h1 className="mt-2">
+                    Completed Imtermediate (ICS) from Isalmia Group of College,
+                    gaining a solid academic foundation and critical thinking
+                    skills
+                  </h1>
+                </div>
+                <div className="w-full h-60 flex justify-center gap-3 flex-col border p-5 hover:bg-gradient-to-l  to-black from-gray-900">
+                  <h1 className="text-2xl font-bold text-[#e86600]">
+                    2016-2018
+                  </h1>
+                  <h1 className="text-2xl ">Matric</h1>
+                  <p className="text-md text-gray-400">
+                    Fauji Foundation School
+                  </p>
+                  <h1 className="mt-2">
+                    Graduated from Fauji Foundation School with a strong
+                    academic record, building a solid foundation for further
+                    education and growth in the field of computer science.
+                  </h1>
+                </div>
+              </div>
+            </div>
+            <div className="w-[50%]">
+              <h1 className="text-4xl text-[#e86600] text-center">Education</h1>
+              <div className="mt-5 flex flex-col gap-8">
+                <div className="w-full h-72 flex justify-center gap-3 flex-col border p-5 hover:bg-gradient-to-l  to-black from-gray-900">
+                  <h1 className="text-2xl font-bold text-[#e86600]">
+                    2020-2024
+                  </h1>
+                  <h1 className="text-2xl ">
+                    Bachelor's Degree of Computer Science
+                  </h1>
+                  <p className="text-md text-gray-400">
+                    University of Agriculture Faisalabad - (UAF)
+                  </p>
+                  <h1 className="mt-2">
+                    Bachelor of Science in Computer Science graduate from the
+                    esteemed University of Agriculture, Faisalabad, with a
+                    strong foundation in computer science principles and
+                    practices.
+                  </h1>
+                </div>
+                <div className="w-full h-60 flex justify-center gap-3 flex-col border p-5 hover:bg-gradient-to-l  to-black from-gray-900">
+                  <h1 className="text-2xl font-bold text-[#e86600]">
+                    2018-2020
+                  </h1>
+                  <h1 className="text-2xl ">ICS</h1>
+                  <p className="text-md text-gray-400">
+                    Islamia Group Of Colleges
+                  </p>
+                  <h1 className="mt-2">
+                    Completed Imtermediate (ICS) from Isalmia Group of College,
+                    gaining a solid academic foundation and critical thinking
+                    skills
+                  </h1>
+                </div>
+                <div className="w-full h-60 flex justify-center gap-3 flex-col border p-5 hover:bg-gradient-to-l  to-black from-gray-900">
+                  <h1 className="text-2xl font-bold text-[#e86600]">
+                    2016-2018
+                  </h1>
+                  <h1 className="text-2xl ">Matric</h1>
+                  <p className="text-md text-gray-400">
+                    Fauji Foundation School
+                  </p>
+                  <h1 className="mt-2">
+                    Graduated from Fauji Foundation School with a strong
+                    academic record, building a solid foundation for further
+                    education and growth in the field of computer science.
+                  </h1>
+                </div>
+              </div>
             </div>
           </div>
         </section>
