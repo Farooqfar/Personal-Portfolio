@@ -316,8 +316,8 @@ export default function Home() {
             <div className="w-full flex flex-col gap-5 justify-center items-center">
               <div className="w-100 max-md:w-80 ">
                 <div className="flex justify-between text-gray-500">
-                  <p className="text-red-500">HTML</p>
-                  <p className="text-red-500">90%</p>
+                  <p className="text-gray-400">HTML</p>
+                  <p className="text-gray-400">90%</p>
                 </div>
                 <div className="w-[100%] relative bg-gray-500 h-3 rounded-2xl">
                   <div className="w-[90%] h-[100%] bg-[#F86D00] absolute top-0 left-0 rounded-2xl"></div>
@@ -325,8 +325,8 @@ export default function Home() {
               </div>
               <div className="w-100 max-md:w-80 ">
                 <div className="flex justify-between text-gray-500">
-                  <p className="text-blue-400">CSS</p>
-                  <p className="text-blue-400">80%</p>
+                  <p className="text-gray-400">CSS</p>
+                  <p className="text-gray-400">80%</p>
                 </div>
                 <div className="w-[100%] relative bg-gray-500 h-3 rounded-2xl">
                   <div className="w-[80%] h-[100%] bg-[#F86D00] absolute top-0 left-0 rounded-2xl"></div>
@@ -334,8 +334,8 @@ export default function Home() {
               </div>
               <div className="w-100 max-md:w-80 ">
                 <div className="flex justify-between text-gray-500">
-                  <p className="text-blue-500">Tailwind</p>
-                  <p className="text-blue-400">80%</p>
+                  <p className="text-gray-400">Tailwind</p>
+                  <p className="text-gray-400">80%</p>
                 </div>
                 <div className="w-[100%] relative bg-gray-500 h-3 rounded-2xl">
                   <div className="w-[80%] h-[100%] bg-[#F86D00] absolute top-0 left-0 rounded-2xl"></div>
@@ -343,8 +343,8 @@ export default function Home() {
               </div>
               <div className="w-100 max-md:w-80 ">
                 <div className="flex justify-between text-gray-500">
-                  <p className="text-yellow-500">JS</p>
-                  <p className="text-yellow-500">85%</p>
+                  <p className="text-gray-400">JS</p>
+                  <p className="text-gray-400">85%</p>
                 </div>
                 <div className="w-[100%] relative bg-gray-500 h-3 rounded-2xl">
                   <div className="w-[85%] h-[100%] bg-[#F86D00] absolute top-0 left-0 rounded-2xl"></div>
@@ -352,8 +352,8 @@ export default function Home() {
               </div>
               <div className="w-100 max-md:w-80 ">
                 <div className="flex justify-between text-gray-500">
-                  <p className="text-blue-500">React</p>
-                  <p className="text-blue-500">84%</p>
+                  <p className="text-gray-400">React</p>
+                  <p className="text-gray-400">84%</p>
                 </div>
                 <div className="w-[100%] relative bg-gray-500 h-3 rounded-2xl">
                   <div className="w-[84%] h-[100%] bg-[#F86D00] absolute top-0 left-0 rounded-2xl"></div>
@@ -363,8 +363,8 @@ export default function Home() {
             <div className="w-full flex flex-col gap-5 justify-center items-center">
               <div className="w-100 max-md:w-80 ">
                 <div className="flex justify-between text-gray-500">
-                  <p className="text-gray-300">Next Js</p>
-                  <p className="text-gray-300">75%</p>
+                  <p className="text-gray-400">Next Js</p>
+                  <p className="text-gray-400">75%</p>
                 </div>
                 <div className="w-[100%] relative bg-gray-500 h-3 rounded-2xl">
                   <div className="w-[75%] h-[100%] bg-[#F86D00] absolute top-0 left-0 rounded-2xl"></div>
@@ -372,8 +372,8 @@ export default function Home() {
               </div>
               <div className="w-100 max-md:w-80 ">
                 <div className="flex justify-between text-gray-500">
-                  <p className="text-green-500">Node JS</p>
-                  <p className="text-green-500">85%</p>
+                  <p className="text-gray-400">Node JS</p>
+                  <p className="text-gray-400">85%</p>
                 </div>
                 <div className="w-[100%] relative bg-gray-500 h-3 rounded-2xl">
                   <div className="w-[85%] h-[100%] bg-[#F86D00] absolute top-0 left-0 rounded-2xl"></div>
@@ -381,8 +381,8 @@ export default function Home() {
               </div>
               <div className="w-100 max-md:w-80 ">
                 <div className="flex justify-between text-gray-500">
-                  <p className="text-green-500">Express JS</p>
-                  <p className="text-green-500">80%</p>
+                  <p className="text-gray-400">Express JS</p>
+                  <p className="text-gray-400">80%</p>
                 </div>
                 <div className="w-[100%] relative bg-gray-500 h-3 rounded-2xl">
                   <div className="w-[80%] h-[100%] bg-[#F86D00] absolute top-0 left-0 rounded-2xl"></div>
@@ -390,8 +390,8 @@ export default function Home() {
               </div>
               <div className="w-100 max-md:w-80 ">
                 <div className="flex justify-between text-gray-500">
-                  <p className="text-green-500">MongoDB</p>
-                  <p className="text-green-500">85%</p>
+                  <p className="text-gray-400">MongoDB</p>
+                  <p className="text-gray-400">85%</p>
                 </div>
                 <div className="w-[100%] relative bg-gray-500 h-3 rounded-2xl">
                   <div className="w-[85%] h-[100%] bg-[#F86D00] absolute top-0 left-0 rounded-2xl"></div>
@@ -399,8 +399,17 @@ export default function Home() {
               </div>
               <div className="w-100 max-md:w-80 ">
                 <div className="flex justify-between text-gray-500">
-                  <p className="text-green-500">Shopify</p>
-                  <p className="text-green-500">75%</p>
+                  <p className="text-gray-400">Shopify</p>
+                  <p className="text-gray-400">75%</p>
+                </div>
+                <div className="w-[100%] relative bg-gray-500 h-3 rounded-2xl">
+                  <div className="w-[75%] h-[100%] bg-[#F86D00] absolute top-0 left-0 rounded-2xl"></div>
+                </div>
+              </div>
+              <div className="w-100 max-md:w-80 ">
+                <div className="flex justify-between text-gray-500">
+                  <p className="text-gray-400">Python</p>
+                  <p className="text-gray-400">70%</p>
                 </div>
                 <div className="w-[100%] relative bg-gray-500 h-3 rounded-2xl">
                   <div className="w-[75%] h-[100%] bg-[#F86D00] absolute top-0 left-0 rounded-2xl"></div>
@@ -500,19 +509,13 @@ export default function Home() {
           <h1 className="text-5xl uppercase text-[#E86600] font-bold">
             Contact Me
           </h1>
-          <marquee className="text-gray-700 flex w-100">
-            <p>
-              Currently serving in a dedicated professional capacity, focused on
-              delivering excellence and contributing value in my role.
-            </p>
-          </marquee>
 
           <form
             className="w-[50%] flex flex-col gap-5 max-md:w-[90%] mt-5"
             onSubmit={handleFormSubmit}
           >
             <div>
-              <h1 className="text-gray-700 text-xl">Name</h1>
+              <h1 className="text-gray-500 text-xl">Name</h1>
               <input
                 type="text"
                 placeholder="Name"
@@ -523,7 +526,7 @@ export default function Home() {
               />
             </div>
             <div>
-              <h1 className="text-gray-700 text-xl">Email</h1>
+              <h1 className="text-gray-500 text-xl">Email</h1>
               <input
                 type="email"
                 placeholder="Email"
@@ -534,7 +537,7 @@ export default function Home() {
               />
             </div>
             <div>
-              <h1 className="text-gray-700 text-xl">Subject</h1>
+              <h1 className="text-gray-500 text-xl">Subject</h1>
               <input
                 type="text"
                 placeholder="Subject"
