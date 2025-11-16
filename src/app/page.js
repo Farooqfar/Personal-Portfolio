@@ -45,8 +45,8 @@ export default function Home() {
     <>
       <main className=" w-full h-screen selection:bg-amber-600 selection:text-gray-300">
         <Navbar />
-        <section className="flex w-[100%] h-screen flex-row max-lg:flex-col p-10">
-          <section className="w-[50%] max-lg:w-[100%]">
+        <section className="flex w-[100%] h-auto flex-row max-lg:flex-col p-10 max-md:p-0">
+          <section className="w-[50%] max-lg:w-[100%] max-md:p-3">
             <h1 className="text-gray-200 text-2xl">
               Hi I am <br /> Muhammad Farooq
             </h1>
@@ -93,10 +93,10 @@ export default function Home() {
               </div>
             </div>
           </section>
-          <section className="relative w-[50%] h-screen max-lg:w-[100%] max-lg:h-screen flex justify-center items-center">
+          <section className="relative w-[50%] h-screen max-lg:w-[100%] max-lg:h-screen max-md:h-[400px] flex justify-center items-center">
             <Spline
               scene="https://prod.spline.design/Qux3cx0V1GrE7QEB/scene.splinecode"
-              className="w-full h-full absolute top-[-100px] left-10 max-lg:top-0 z-10"
+              className="w-full h-full absolute top-[-100px] left-10 max-lg:top-0 max-md:left-5"
             />
           </section>
         </section>
