@@ -44,9 +44,13 @@ export default function Home() {
   };
   return (
     <>
-      <main className=" w-full h-screen selection:bg-amber-600 selection:text-gray-300">
+    
+      <main className=" w-full h-full selection:bg-amber-600 selection:text-gray-300 overflow-hidden">
         <Navbar />
-        <section className="flex w-[100%] h-auto flex-row max-lg:flex-col p-10 max-md:p-0">
+        <section
+          className="flex w-[100%] h-auto flex-row max-lg:flex-col p-10 max-md:p-0"
+          id="home"
+        >
           <section className="w-[50%] max-lg:w-[100%] max-md:p-3">
             <h1 className="text-gray-200 text-2xl">
               Hi I am <br /> Muhammad Farooq
@@ -103,7 +107,10 @@ export default function Home() {
         </section>
 
         {/* ----------- Projects ----------- */}
-        <section className="mt-20 w-full h-auto flex justify-center items-center flex-col">
+        <section
+          className="mt-20 w-full h-auto flex justify-center items-center flex-col"
+          id="project"
+        >
           <h1 className="text-[#E86600] text-6xl text-center uppercase font-bold">
             My Projects
           </h1>
@@ -144,7 +151,10 @@ export default function Home() {
           </div>
         </section>
         {/* ---------- Skills ------------- */}
-        <section className="mt-10 w-full h-auto flex justify-center items-center flex-col">
+        <section
+          className="mt-10 w-full h-auto flex justify-center items-center flex-col"
+          id="skills"
+        >
           <h1 className="text-[#e86600] text-6xl uppercase font-bold">
             My Skills
           </h1>
@@ -255,7 +265,10 @@ export default function Home() {
           </div>
         </section>
         {/* ---------- Services ------------- */}
-        <section className="mt-10 flex justify-center items-center flex-col">
+        <section
+          className="mt-10 flex justify-center items-center flex-col"
+          id="services"
+        >
           <h1 className="text-[#e86600] text-6xl uppercase font-bold">
             ServiceS
           </h1>
@@ -292,7 +305,10 @@ export default function Home() {
           </div>
         </section>
         {/* ----------- About Me ----------- */}
-        <section className="mt-10 w-[100%] flex flex-col justify-center items-center">
+        <section
+          className="mt-10 w-[100%] flex flex-col justify-center items-center"
+          id="aboutme"
+        >
           <h1 className="text-6xl text-[#e86600] uppercase font-bold">
             About me
           </h1>
@@ -342,13 +358,16 @@ export default function Home() {
           </div>
         </section>
         {/* ---------- Resumes ------------- */}
-        <section className="mt-10 w-[100%] flex flex-col justify-center items-center">
+        <section
+          className="mt-10 w-[100%] flex flex-col justify-center items-center"
+          id="resume"
+        >
           <h1 className="text-6xl text-[#e86600] font-bold">Resume</h1>
-          <div className="w-full flex gap-4 p-10">
-            <div className="w-[50%]">
-              <h1 className="text-4xl text-[#e86600]">Education</h1>
+          <div className="w-full flex gap-4 p-10 max-md:flex-col">
+            <div className="w-[50%] max-md:w-[100%]">
+              <h1 className="text-4xl text-[#e86600] text-center">Education</h1>
               <div className="mt-5 flex flex-col gap-8">
-                <div className="w-full h-72 flex justify-center gap-3 flex-col border p-5 hover:bg-gradient-to-l  to-black from-gray-900">
+                <div className="w-full min-h-72 flex justify-center gap-3 flex-col border p-5 hover:bg-gradient-to-l  to-black from-gray-900">
                   <h1 className="text-2xl font-bold text-[#e86600]">
                     2020-2024
                   </h1>
@@ -365,7 +384,7 @@ export default function Home() {
                     practices.
                   </h1>
                 </div>
-                <div className="w-full h-60 flex justify-center gap-3 flex-col border p-5 hover:bg-gradient-to-l  to-black from-gray-900">
+                <div className="w-full min-h-60 flex justify-center gap-3 flex-col border p-5 hover:bg-gradient-to-l  to-black from-gray-900">
                   <h1 className="text-2xl font-bold text-[#e86600]">
                     2018-2020
                   </h1>
@@ -379,7 +398,7 @@ export default function Home() {
                     skills
                   </h1>
                 </div>
-                <div className="w-full h-60 flex justify-center gap-3 flex-col border p-5 hover:bg-gradient-to-l  to-black from-gray-900">
+                <div className="w-full min-h-60 flex justify-center gap-3 flex-col border p-5 hover:bg-gradient-to-l  to-black from-gray-900">
                   <h1 className="text-2xl font-bold text-[#e86600]">
                     2016-2018
                   </h1>
@@ -395,52 +414,49 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="w-[50%]">
-              <h1 className="text-4xl text-[#e86600] text-center">Education</h1>
-              <div className="mt-5 flex flex-col gap-8">
-                <div className="w-full h-72 flex justify-center gap-3 flex-col border p-5 hover:bg-gradient-to-l  to-black from-gray-900">
+            <div className="w-[50%] max-md:w-[100%]">
+              <h1 className="text-4xl text-[#e86600] text-center">
+                Experience
+              </h1>
+              <div className="mt-10 flex flex-col gap-8">
+                <div className="w-full min-h-72 flex justify-center gap-3 flex-col border p-5 hover:bg-gradient-to-l  to-black from-gray-900">
                   <h1 className="text-2xl font-bold text-[#e86600]">
-                    2020-2024
+                    2022-2023
                   </h1>
-                  <h1 className="text-2xl ">
-                    Bachelor's Degree of Computer Science
-                  </h1>
-                  <p className="text-md text-gray-400">
-                    University of Agriculture Faisalabad - (UAF)
-                  </p>
+                  <h1 className="text-2xl ">Front-End Developer</h1>
+                  <p className="text-md text-gray-400">Freelancer</p>
                   <h1 className="mt-2">
-                    Bachelor of Science in Computer Science graduate from the
-                    esteemed University of Agriculture, Faisalabad, with a
-                    strong foundation in computer science principles and
-                    practices.
+                    Experienced Front-End Designer at Brisk-Base Software House,
+                    leveraging creativity and technical expertise to design
+                    visually compelling and user-friendly web interfaces.
                   </h1>
                 </div>
-                <div className="w-full h-60 flex justify-center gap-3 flex-col border p-5 hover:bg-gradient-to-l  to-black from-gray-900">
+                <div className="w-full min-h-60 flex justify-center gap-3 flex-col border p-5 hover:bg-gradient-to-l  to-black from-gray-900">
                   <h1 className="text-2xl font-bold text-[#e86600]">
-                    2018-2020
+                    2024-2025
                   </h1>
-                  <h1 className="text-2xl ">ICS</h1>
+                  <h1 className="text-2xl ">Full Stack Web Developer</h1>
                   <p className="text-md text-gray-400">
-                    Islamia Group Of Colleges
+                    Softicera Softwate House
                   </p>
                   <h1 className="mt-2">
-                    Completed Imtermediate (ICS) from Isalmia Group of College,
-                    gaining a solid academic foundation and critical thinking
-                    skills
+                    Proficient Full Stack Web Developer at Softicera Software
+                    House, delivering dynamic, efficient, and scalable web
+                    solutions through strong expertise in both front-end and
+                    back-end development.
                   </h1>
                 </div>
-                <div className="w-full h-60 flex justify-center gap-3 flex-col border p-5 hover:bg-gradient-to-l  to-black from-gray-900">
+                <div className="w-full min-h-60 flex justify-center gap-3 flex-col border p-5  hover:bg-gradient-to-l  to-black from-gray-900">
                   <h1 className="text-2xl font-bold text-[#e86600]">
-                    2016-2018
+                    2025-Present
                   </h1>
                   <h1 className="text-2xl ">Matric</h1>
-                  <p className="text-md text-gray-400">
-                    Fauji Foundation School
-                  </p>
+                  <p className="text-md text-gray-400">Team 99 Agency</p>
                   <h1 className="mt-2">
-                    Graduated from Fauji Foundation School with a strong
-                    academic record, building a solid foundation for further
-                    education and growth in the field of computer science.
+                    Proficient Full Stack Web Developer at Team 99 Agency and
+                    Shopify Developer, delivering dynamic, efficient, and
+                    scalable web solutions through strong expertise in both
+                    front-end and back-end development
                   </h1>
                 </div>
               </div>
@@ -448,7 +464,10 @@ export default function Home() {
           </div>
         </section>
         {/* ----------- Contact Me --------- */}
-        <section className="mt-10 w-[100%] flex flex-col justify-center items-center">
+        <section
+          className="mt-10 w-[100%] flex flex-col justify-center items-center"
+          id="contactme"
+        >
           <h1 className="text-5xl uppercase text-[#E86600] font-bold">
             Contact Me
           </h1>
