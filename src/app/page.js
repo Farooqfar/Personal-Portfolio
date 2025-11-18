@@ -368,7 +368,7 @@ export default function Home() {
               <div className="mt-5 flex flex-col gap-8">
                 <div className="w-full min-h-72 flex justify-center gap-3 flex-col border p-5 hover:bg-gradient-to-l  to-black from-gray-900">
                   <h1 className="text-2xl font-bold text-[#e86600]">
-                    2020-2024
+                    2020&ndash;2024
                   </h1>
                   <h1 className="text-2xl ">
                     Bachelor's Degree of Computer Science
@@ -385,7 +385,7 @@ export default function Home() {
                 </div>
                 <div className="w-full min-h-60 flex justify-center gap-3 flex-col border p-5 hover:bg-gradient-to-l  to-black from-gray-900">
                   <h1 className="text-2xl font-bold text-[#e86600]">
-                    2018-2020
+                    2018&ndash;2020
                   </h1>
                   <h1 className="text-2xl ">ICS</h1>
                   <p className="text-md text-gray-400">
@@ -399,7 +399,7 @@ export default function Home() {
                 </div>
                 <div className="w-full min-h-60 flex justify-center gap-3 flex-col border p-5 hover:bg-gradient-to-l  to-black from-gray-900">
                   <h1 className="text-2xl font-bold text-[#e86600]">
-                    2016-2018
+                    2016&ndash;2018
                   </h1>
                   <h1 className="text-2xl ">Matric</h1>
                   <p className="text-md text-gray-400">
@@ -425,14 +425,14 @@ export default function Home() {
                   <h1 className="text-2xl ">Front-End Developer</h1>
                   <p className="text-md text-gray-400">Freelancer</p>
                   <h1 className="mt-2">
-                    Experienced Front-End Designer at Brisk-Base Software House,
+                    Experienced Front-End Designer at Softicera Software House,
                     leveraging creativity and technical expertise to design
-                    visually compelling and user-friendly web interfaces.
+                    visually compelling and user&ndash;friendly web interfaces.
                   </h1>
                 </div>
                 <div className="w-full min-h-60 flex justify-center gap-3 flex-col border p-5 hover:bg-gradient-to-l  to-black from-gray-900">
                   <h1 className="text-2xl font-bold text-[#e86600]">
-                    2024-2025
+                    2024&ndash;2025
                   </h1>
                   <h1 className="text-2xl ">Full Stack Web Developer</h1>
                   <p className="text-md text-gray-400">
@@ -441,13 +441,13 @@ export default function Home() {
                   <h1 className="mt-2">
                     Proficient Full Stack Web Developer at Softicera Software
                     House, delivering dynamic, efficient, and scalable web
-                    solutions through strong expertise in both front-end and
-                    back-end development.
+                    solutions through strong expertise in both front&ndash;end
+                    and back-end development.
                   </h1>
                 </div>
                 <div className="w-full min-h-60 flex justify-center gap-3 flex-col border p-5  hover:bg-gradient-to-l  to-black from-gray-900">
                   <h1 className="text-2xl font-bold text-[#e86600]">
-                    2025-Present
+                    2025&ndash;Present
                   </h1>
                   <h1 className="text-2xl ">Matric</h1>
                   <p className="text-md text-gray-400">Team 99 Agency</p>
@@ -455,7 +455,7 @@ export default function Home() {
                     Proficient Full Stack Web Developer at Team 99 Agency and
                     Shopify Developer, delivering dynamic, efficient, and
                     scalable web solutions through strong expertise in both
-                    front-end and back-end development
+                    front-end and back&ndash;end development
                   </h1>
                 </div>
               </div>
