@@ -328,8 +328,9 @@ export default function Home() {
               <h1 className="text-xl">
                 I enjoy turning complex problems into simple, elegant solutions
                 — from crafting responsive UIs to managing data flow and APIs.
-                I&apos;m always learning, exploring new technologies, and improving
-                my skills to stay ahead in the ever-evolving web ecosystem.
+                I&apos;m always learning, exploring new technologies, and
+                improving my skills to stay ahead in the ever-evolving web
+                ecosystem.
               </h1>
               <br />
               <h1 className="text-xl">
@@ -371,7 +372,7 @@ export default function Home() {
                     2020&ndash;2024
                   </h1>
                   <h1 className="text-2xl ">
-                    Bachelor's Degree of Computer Science
+                    Bachelor&apos;s Degree of Computer Science
                   </h1>
                   <p className="text-md text-gray-400">
                     University of Agriculture Faisalabad at UAF
