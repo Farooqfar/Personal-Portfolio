@@ -314,7 +314,7 @@ export default function Home() {
           <div className="w-[100%] flex justify-center items-center max-md:flex-col">
             <div className="p-10 w-[60%] text-gray-500 max-md:w-[100%]">
               <h1 className="text-xl">
-                I’m Muhammad Farooq, a passionate Full Stack Developer
+                I&apos;m Muhammad Farooq , a passionate Full Stack Developer
                 specializing in Next.js, React, and Tailwind CSS.
               </h1>
               <br />
@@ -328,7 +328,7 @@ export default function Home() {
               <h1 className="text-xl">
                 I enjoy turning complex problems into simple, elegant solutions
                 — from crafting responsive UIs to managing data flow and APIs.
-                I’m always learning, exploring new technologies, and improving
+                I&apos;m always learning, exploring new technologies, and improving
                 my skills to stay ahead in the ever-evolving web ecosystem.
               </h1>
               <br />
