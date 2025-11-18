@@ -374,7 +374,7 @@ export default function Home() {
                     Bachelor's Degree of Computer Science
                   </h1>
                   <p className="text-md text-gray-400">
-                    University of Agriculture Faisalabad - (UAF)
+                    University of Agriculture Faisalabad at UAF
                   </p>
                   <h1 className="mt-2">
                     Bachelor of Science in Computer Science graduate from the
@@ -392,7 +392,7 @@ export default function Home() {
                     Islamia Group Of Colleges
                   </p>
                   <h1 className="mt-2">
-                    Completed Imtermediate (ICS) from Isalmia Group of College,
+                    Completed Imtermediate ICS from Isalmia Group of College,
                     gaining a solid academic foundation and critical thinking
                     skills
                   </h1>
