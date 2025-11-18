@@ -518,7 +518,7 @@ export default function Home() {
             </div>
             <button
               type="submit"
-              className="bg-[#E86600] p-1 w-24 rounded hover:scale-105 transition-all duration-300 cursor-pointer"
+              className="bg-[#E86600] p-1 w-16 rounded hover:scale-105 transition-all duration-300 cursor-pointer"
             >
               Submit
             </button>
