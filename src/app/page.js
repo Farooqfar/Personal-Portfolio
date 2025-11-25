@@ -115,9 +115,9 @@ export default function Home() {
           </h1>
           <div className="mt-10 w-[100%] h-auto grid grid-cols-3 place-items-center gap-5 max-lg:grid-cols-1 ">
             <div className="group border hover:scale-105 relative w-100 h-auto p-4 flex flex-col justify-around items-start gap-4 rounded  hover:bg-gradient-to-r from-black to-gray-900 transition-all duration-300 hover:shadow-2xl  max-md:p-10 ">
-              <div className="w-[100%]">
+              <div className="w-[100%] contain-content">
                 <Image
-                  src="/pro.jpeg"
+                  src="/piza.PNG"
                   alt="projects"
                   width={100}
                   height={100}
@@ -126,15 +126,18 @@ export default function Home() {
               </div>
               <div className="text-start">
                 <h1 className="text-2xl">Title</h1>
-                <h1 className="text-xl text-gray-400">E-Commerce Platform</h1>
+                <h1 className="text-xl text-gray-400">Dedelay Oven</h1>
               </div>
               <div>
                 <h1 className="text-2xl">Description</h1>
-                <p className="text-gray-400">something</p>
+                <p className="text-gray-400">
+                  Savor every bite with our hand-crafted, oven-fresh pizzas.
+                </p>
               </div>
               <div className="w-[100%] flex justify-between items-center">
                 <a
-                  href="#"
+                  href="https://github.com/Farooqfar"
+                  target="_blank"
                   className="bottom-1 bg-blue-500 text-center p-1 w-14 flex justify-center items-center rounded hover:scale-105 transition-all duration-200 cursor-pointer "
                 >
                   <FaGithub className="text-2xl" />
