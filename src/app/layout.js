@@ -1,6 +1,7 @@
-import { Space_Grotesk } from "next/font/google";
+import { Bungee } from "next/font/google";
 import "./globals.css";
-export const outfit = Space_Grotesk({
+export const bungee = Bungee({
+  weight: ["400"],
   subsets: ["latin"],
 });
 export const metadata = {
@@ -11,10 +12,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
-        <link rel="icon" href="/logo.png" />
-      </head>
-      <body className={`dark ${outfit.className}`}>{children}</body>
+      <body className={`dark ${bungee.className}`}>{children}</body>
     </html>
   );
 }
