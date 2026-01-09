@@ -63,8 +63,8 @@ export default function Home() {
           <div className="absolute w-36 h-36 bottom-0 right-0">
             <Image src="/logo.png" fill className="logo" />
           </div>
-          <div className="absolute w-96 bottom-0 p-10 ">
-            <h4 className="txt">
+          <div className="absolute w-1/3 bottom-0 p-10 ">
+            <h4 className="txt text-white text-2xl">
               Crafting modern, responsive, and high-performing websites tailored
               to your business needs. Lets turn your ideas into reality with
               clean code and sleek design.
