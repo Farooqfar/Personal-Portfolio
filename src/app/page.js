@@ -40,7 +40,7 @@ export default function Home() {
             <Image src="/bg.png" fill className="bg scale-110" />
           </div>
           <div className="relative flex flex-col justify-center items-center w-full h-full">
-            <h1 className="name text-[9vw] font-black text-white -mt-40">
+            <h1 className="name text-[9vw] font-black text-white -mt-60">
               Muhammad Farooq
             </h1>
             <div className="title flex justify-around w-full p-10">
