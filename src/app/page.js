@@ -142,7 +142,7 @@ export default function Home() {
   }, []);
   return (
     <>
-      <main className="relative main w-full h-full selection:bg-amber-600 selection:text-gray-300 overflow-hidden">
+      <main className="relative main selection:bg-amber-600 selection:text-gray-300 overflow-hidden">
         <section className="relative flex w-[100%] h-screen" id="home">
           <div>
             <Image src="/sky.png" fill className="sky scale-125" />
@@ -183,9 +183,9 @@ export default function Home() {
           </div>
         </section>
       </main>
-      <section className="relative experience w-full min-h-screen flex justify-center items-center bg-black shadow-4xl  shadow-black">
-        <div className="flex justify-around items-center w-full h-full">
-          <div className="relative w-64 rounded-t-full h-96 bg-[#FDB732]">
+      <section className="relative experience w-full min-h-screen flex justify-center items-center bg-black shadow-4xl  shadow-black ">
+        <div className="flex justify-around items-center w-full h-full max-md:flex-col">
+          <div className="relative w-96 rounded-t-full h-[600px] bg-[#FDB732]">
             <Image src="/p3.png" fill className="absolute" />
           </div>
           <div className="w-1/2 h-full flex items-center flex-col p-10 text-white">
